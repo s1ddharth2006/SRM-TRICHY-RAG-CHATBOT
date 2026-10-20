@@ -1,0 +1,50 @@
+{
+  "success": true,
+  "data": [
+    {
+      "_id": "6a1e7b94e7e394378bce7349",
+      "image": "image-1789125480767.JPG",
+      "tagLine": "Future Starts Here",
+      "title": "Endless Opportunities",
+      "description": "Build knowledge, confidence, and leadership through transformative experiences that prepare students for global success.",
+      "ctaText1": "Explore Programs",
+      "ctaLink1": "#academics",
+      "ctaText2": "Apply Now",
+      "ctaLink2": "/admission",
+      "sliderStatus": "active",
+      "createdAt": "2026-06-02T06:43:32.254Z",
+      "updatedAt": "2026-09-18T10:40:35.865Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a1e7bfce7e394378bce734a",
+      "image": "image-1789113046743.png",
+      "tagLine": "Innovation Drives Success",
+      "title": "Career Growth",
+      "description": "Bridging academics and industry through research, innovation, internships, and exceptional placement opportunities.",
+      "ctaText1": "View Placements",
+      "ctaLink1": "/placement",
+      "ctaText2": "Career Development Centre",
+      "ctaLink2": "/placement/career-development-centre",
+      "sliderStatus": "active",
+      "createdAt": "2026-06-02T06:45:16.872Z",
+      "updatedAt": "2026-09-11T11:27:49.684Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a1e7c4ae7e394378bce734b",
+      "image": "image-1789112961328.JPG",
+      "tagLine": "Wellness Meets Learning",
+      "title": "Balanced Living",
+      "description": "Experience a healthy campus environment that promotes sustainability, wellbeing, recreation, and academic excellence.",
+      "ctaText1": "Explore Campus",
+      "ctaLink1": "/campus-life",
+      "ctaText2": "Sports",
+      "ctaLink2": "/sports",
+      "sliderStatus": "active",
+      "createdAt": "2026-06-02T06:46:34.929Z",
+      "updatedAt": "2026-09-11T11:41:49.558Z",
+      "__v": 0
+    }
+  ]
+}

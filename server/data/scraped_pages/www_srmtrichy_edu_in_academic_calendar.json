@@ -1,0 +1,14 @@
+{
+  "url": "https://www.srmtrichy.edu.in/academic_calendar",
+  "route": "/academic_calendar",
+  "title": "Academic Calendar & Examination Schedule | SRM IST Trichy",
+  "category": "academics",
+  "status": 200,
+  "contentLength": 451,
+  "text": "ACADEMIC CALENDAR & EXAMINATION SCHEDULE - SRM IST TRICHY:\nSemester System: Odd Semester (July to November), Even Semester (January to May).\nContinuous Internal Assessment (CIA): 3 internal cycle tests per semester + model practicals.\nEnd-Semester Examinations: Conducted under the Controller of Examinations (COE) with centralized valuation.\nKey University Holidays: Tamil New Year, Pongal Festival, Independence Day, Republic Day, Diwali, Christmas.",
+  "hyperlinks": [
+    "https://www.srmtrichy.edu.in/examcell",
+    "https://www.srmtrichy.edu.in/"
+  ],
+  "scrapedAt": "2026-10-20T11:06:31.853Z"
+}

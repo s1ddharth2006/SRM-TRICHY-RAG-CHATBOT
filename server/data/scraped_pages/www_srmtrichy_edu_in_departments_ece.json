@@ -1,0 +1,13 @@
+{
+  "url": "https://www.srmtrichy.edu.in/departments/ece",
+  "route": "/departments/ece",
+  "title": "Department of Electronics & Communication Engineering (ECE) | SRM IST Trichy",
+  "category": "departments",
+  "status": 200,
+  "contentLength": 456,
+  "text": "DEPARTMENT OF ELECTRONICS & COMMUNICATION ENGINEERING (ECE) - SRM IST TRICHY:\nHoD (ECE): Dr. P. Murugapandiyan (Professor & HoD).\nHoD (ECE with Data Science): Dr. Rajasekar R (Associate Professor & HoD).\nPrograms: B.Tech ECE, B.Tech ECE (Data Science), M.Tech Embedded System & VLSI Design, Ph.D.\nLaboratories: VLSI Design Lab (Cadence/Synopsys tools), Embedded Systems Lab (ARM, Arduino, Raspberry Pi), RF & Microwave Lab, Optical Communication & DSP Lab.",
+  "hyperlinks": [
+    "https://www.srmtrichy.edu.in/institution/engineering-and-technology"
+  ],
+  "scrapedAt": "2026-10-20T11:06:31.857Z"
+}

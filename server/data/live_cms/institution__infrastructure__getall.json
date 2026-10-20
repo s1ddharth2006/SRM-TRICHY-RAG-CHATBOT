@@ -1,0 +1,169 @@
+{
+  "success": true,
+  "data": [
+    {
+      "_id": "6a1d1b7058c83b3c63d134f9",
+      "institutionId": "6a0bec2d9cd76bb62b95f900",
+      "infraName": "Apple i-mac Lab",
+      "infraDesc": "The iMac App Development Center of Excellence, established with Apple Inc., provides hands-on training, tools, certifications, and career opportunities in app development.\r\n",
+      "infraImage": "infraImage-1789728559953-551418051.jpg",
+      "equipment": [
+        "Hardware - iMacs",
+        "MacBooks Software- Xcode",
+        "Swift"
+      ],
+      "createdAt": "2026-06-01T05:41:04.973Z",
+      "updatedAt": "2026-09-18T10:49:21.629Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a1d1d38d259bcb3f7b3fad9",
+      "institutionId": "6a0bec2d9cd76bb62b95f900",
+      "infraName": "Augmented Reality & Virtual Reality Lab (ARVR Lab)",
+      "infraDesc": "The Augmented Reality & Virtual Reality (ARVR) Lab provides hands-on experience in immersive technologies, enabling students to develop interactive applications for education, healthcare, gaming, and industrial simulations.\r\n",
+      "infraImage": "infraImage-1780292920212.jpg",
+      "equipment": [],
+      "createdAt": "2026-06-01T05:48:40.225Z",
+      "updatedAt": "2026-06-01T05:48:40.225Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a4f8d25631c6c9ea019395d",
+      "institutionId": "6a100683d609878e709ec0d9",
+      "infraName": "Musculoskeletal & Hand Rehabilitation Laboratory",
+      "infraDesc": "Advanced lab for orthopaedic rehabilitation, hand therapy, splinting, and functional restoration training.",
+      "infraImage": "infraImage-1783599256870.jpg",
+      "equipment": [
+        "Jebson Taylor Hand Function Test",
+        "Purdue Pegboard",
+        "Pinchometer",
+        "Dynamometer",
+        "Isolated finger exerciser",
+        "Grip exercisers",
+        "Crawford dexterity test",
+        "Minnesota Hand Function test",
+        "Splint tools & materials"
+      ],
+      "capacity": 1500,
+      "createdAt": "2026-07-09T11:59:33.520Z",
+      "updatedAt": "2026-08-07T04:47:29.131Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a4f8d65631c6c9ea019395e",
+      "institutionId": "6a100683d609878e709ec0d9",
+      "infraName": "Neurological Rehabilitation Laboratory",
+      "infraDesc": "Equipped for cognitive-perceptual training, sensory-motor therapy and neurodevelopmental rehabilitation techniques.",
+      "infraImage": "infraImage-1783599395664.jpg",
+      "equipment": [
+        "Cognition & Perception Testing Batteries",
+        "Sensory Assessment Kits",
+        "Balance Assessment Tools",
+        "Neuro-therapeutic modalities",
+        "Stability Trainers",
+        "NDT equipment"
+      ],
+      "capacity": 1500,
+      "createdAt": "2026-07-09T12:00:37.372Z",
+      "updatedAt": "2026-08-07T04:47:39.515Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a4f8db1631c6c9ea019398f",
+      "institutionId": "6a100683d609878e709ec0d9",
+      "infraName": "Paediatric & Sensory Integration Occupational Therapy Laboratory",
+      "infraDesc": "Specialized for developmental assessment, early intervention, autism, cerebral palsy, and school-based therapy. Equipped with sensory integration tools for managing sensory processing disorders in children and adults.",
+      "infraImage": "infraImage-1783599410733.jpg",
+      "equipment": [
+        "Cerebral Palsy Chairs (5)",
+        "Floor Mats (4)",
+        "Play equipment",
+        "Vestibular-Proprioceptive equipment",
+        "Puzzles/Books",
+        "Fine-motor games",
+        "Vestibular-proprioceptive equipment",
+        "Sensory assessment kits",
+        "Sensory integration therapy equipment",
+        "Tactile play materials"
+      ],
+      "capacity": 1000,
+      "createdAt": "2026-07-09T12:01:53.788Z",
+      "updatedAt": "2026-08-07T04:47:56.819Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a4f8e1b631c6c9ea0193990",
+      "institutionId": "6a100683d609878e709ec0d9",
+      "infraName": "Splinting & Assistive Technology Laboratory",
+      "infraDesc": "Dedicated to fabrication of custom splints, orthoses, and assistive devices for functional independence.",
+      "infraImage": "infraImage-1783599722106.jpg",
+      "equipment": [
+        "Functional assessment kit",
+        "Self-help adapted equipment",
+        "Wheelchair modifications",
+        "Mobility aids",
+        "Heat Bath",
+        "Electrical drill",
+        "Sewing machine",
+        "Ergonomic adapted equipment"
+      ],
+      "capacity": 1000,
+      "createdAt": "2026-07-09T12:03:39.628Z",
+      "updatedAt": "2026-08-07T04:48:13.679Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a4f8e4d631c6c9ea0193991",
+      "institutionId": "6a100683d609878e709ec0d9",
+      "infraName": "Psychosocial Remedial / Mental Health Laboratory",
+      "infraDesc": "Training in therapeutic activities, behavioural interventions, cognitive retraining and psychosocial rehabilitation.",
+      "infraImage": "infraImage-1783599478535.jpg",
+      "equipment": [
+        "Reaction time machine",
+        "Tests for fine motor skills & motor accuracy",
+        "Psychomotor activities",
+        "Indoor and outdoor games",
+        "Cognitive retraining activities"
+      ],
+      "capacity": 1500,
+      "createdAt": "2026-07-09T12:04:29.995Z",
+      "updatedAt": "2026-08-07T04:48:22.845Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a4f8e75631c6c9ea0193992",
+      "institutionId": "6a100683d609878e709ec0d9",
+      "infraName": "Activities of Daily Living (ADL) Unit",
+      "infraDesc": "Simulated real-life environment for training self-care, mobility, domestic tasks and independent living skills.",
+      "infraImage": "infraImage-1783599496758.jpg",
+      "equipment": [
+        "Kitchen simulation setup",
+        "Bathroom ADL equipment",
+        "Self-help adapted devices",
+        "Mobility aids",
+        "Environmental modification tools"
+      ],
+      "capacity": 500,
+      "createdAt": "2026-07-09T12:05:09.048Z",
+      "updatedAt": "2026-08-07T04:48:32.785Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a4f8eb0631c6c9ea0193993",
+      "institutionId": "6a100683d609878e709ec0d9",
+      "infraName": "Occupational Therapy Skill Laboratory",
+      "infraDesc": "Hands-on training in core therapeutic techniques, assessment administration and treatment planning for students.",
+      "infraImage": "infraImage-1783599729606.jpg",
+      "equipment": [
+        "Assessment scales and kits",
+        "Therapeutic tools",
+        "Clinical documentation aids",
+        "Standardized evaluation kits"
+      ],
+      "capacity": 1500,
+      "createdAt": "2026-07-09T12:06:08.123Z",
+      "updatedAt": "2026-08-07T04:48:41.544Z",
+      "__v": 0
+    }
+  ]
+}

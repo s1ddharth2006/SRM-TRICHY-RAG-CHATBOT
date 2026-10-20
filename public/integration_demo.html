@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SRM Trichy AI Chatbot - Universal Integration & Demo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0b1e36;
+      --primary-light: #16375f;
+      --accent: #c49a45;
+      --accent-hover: #dfb256;
+      --bg: #071220;
+      --surface: #0f2238;
+      --surface-card: #142a45;
+      --border: rgba(196, 154, 69, 0.25);
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --code-bg: #050d18;
+      --success: #10b981;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.6;
+      background-image: 
+        radial-gradient(circle at 15% 20%, rgba(196, 154, 69, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 80%, rgba(22, 55, 95, 0.3) 0%, transparent 50%);
+    }
+
+    header {
+      padding: 3rem 2rem 2rem;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+      background: rgba(11, 30, 54, 0.6);
+      backdrop-filter: blur(12px);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.4rem 1rem;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      background: rgba(196, 154, 69, 0.15);
+      color: var(--accent);
+      border: 1px solid var(--border);
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .badge-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--success);
+      border-radius: 50%;
+      box-shadow: 0 0 8px var(--success);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.9); }
+    }
+
+    h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 2.8rem;
+      font-weight: 800;
+      line-height: 1.2;
+      background: linear-gradient(135deg, #ffffff 40%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.8rem;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1.15rem;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    main {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+      display: grid;
+      gap: 2.5rem;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.2rem;
+    }
+
+    .stat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.4rem;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-3px);
+      border-color: var(--accent);
+    }
+
+    .stat-number {
+      font-family: 'Outfit', sans-serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--accent);
+      line-height: 1.1;
+      margin-bottom: 0.3rem;
+    }
+
+    .stat-label {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    .section-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .section-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .section-desc {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .code-block-wrapper {
+      position: relative;
+      background: var(--code-bg);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 1rem;
+    }
+
+    .code-block-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.6rem 1rem;
+      background: rgba(255, 255, 255, 0.04);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    pre {
+      padding: 1.2rem;
+      overflow-x: auto;
+      font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace;
+      font-size: 0.9rem;
+      line-height: 1.5;
+      color: #38bdf8;
+    }
+
+    .copy-btn {
+      background: rgba(196, 154, 69, 0.2);
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      padding: 0.35rem 0.8rem;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .copy-btn:hover {
+      background: var(--accent);
+      color: #0b1e36;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1.2rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding-bottom: 0.5rem;
+    }
+
+    .tab-btn {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      border-radius: 6px;
+      transition: all 0.2s;
+    }
+
+    .tab-btn.active {
+      background: rgba(196, 154, 69, 0.2);
+      color: var(--accent);
+      border: 1px solid var(--border);
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    .instruction-list {
+      list-style-position: inside;
+      margin-left: 0.5rem;
+      color: #cbd5e1;
+      display: grid;
+      gap: 0.8rem;
+      font-size: 0.95rem;
+    }
+
+    .instruction-list strong {
+      color: #fff;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.2rem;
+      margin-top: 1rem;
+    }
+
+    .feature-item {
+      background: var(--surface-card);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 10px;
+      padding: 1.2rem;
+    }
+
+    .feature-item h4 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.05rem;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .feature-item p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .demo-hint {
+      margin-top: 1.5rem;
+      padding: 1rem 1.4rem;
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      border-radius: 10px;
+      color: #6ee7b7;
+      font-size: 0.92rem;
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2.5rem 1rem;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="badge">
+      <span class="badge-dot"></span>
+      RAG Vector Engine & Autonomous Learning Live
+    </div>
+    <h1>SRM Trichy AI Chatbot</h1>
+    <p class="subtitle">
+      Fully trained with comprehensive official knowledge from <code>https://www.srmtrichy.edu.in/</code>, 
+      live CMS API databases, and 8 comprehensive master PDFs. Embed seamlessly with a single script tag!
+    </p>
+  </header>
+
+  <main>
+    <!-- System Statistics -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">141</div>
+        <div class="stat-label">Indexed Vector Chunks</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">19</div>
+        <div class="stat-label">Official Knowledge PDFs</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">72</div>
+        <div class="stat-label">Verified Bilingual FAQs</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">123</div>
+        <div class="stat-label">Learned Questions</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">37</div>
+        <div class="stat-label">Scraped Web Pages &amp; Portals</div>
+      </div>
+    </div>
+
+    <!-- Quick Integration Section -->
+    <div class="section-card">
+      <h2 class="section-title">
+        <span>🚀</span> Universal Integration Guide
+      </h2>
+      <p class="section-desc">
+        Integrate this chatbot on the main website (<code>https://www.srmtrichy.edu.in</code>), subdomains, or any CMS (WordPress, React, HTML, Next.js). The widget auto-detects its API host, auto-injects required styles, and operates fully with zero external dependencies.
+      </p>
+
+      <div class="tabs">
+        <button class="tab-btn active" onclick="switchTab('tab-html')">1-Line Script (Universal)</button>
+        <button class="tab-btn" onclick="switchTab('tab-custom')">Custom Server / Domain</button>
+        <button class="tab-btn" onclick="switchTab('tab-react')">React / Next.js / Vite</button>
+        <button class="tab-btn" onclick="switchTab('tab-wp')">WordPress / Webflow</button>
+      </div>
+
+      <!-- Tab 1: Universal 1-line script -->
+      <div id="tab-html" class="tab-content active">
+        <p style="margin-bottom: 0.8rem; font-size: 0.95rem; color: #cbd5e1;">
+          Add this single line right before the closing <code>&lt;/body&gt;</code> tag of any page:
+        </p>
+        <div class="code-block-wrapper">
+          <div class="code-block-header">
+            <span>HTML &lt;/body&gt; Embed</span>
+            <button class="copy-btn" onclick="copySnippet('snippet-1')">Copy Code</button>
+          </div>
+          <pre id="snippet-1">&lt;!-- SRM IST Trichy AI Chatbot Embed (Standalone) --&gt;
+&lt;script src="https://your-chatbot-server.com/embed.js" defer&gt;&lt;/script&gt;
+
+&lt;!-- OR for Chatbot + Full Site Bilingual Translation --&gt;
+&lt;script src="https://your-chatbot-server.com/srm-tamil-widget.js" defer&gt;&lt;/script&gt;</pre>
+        </div>
+        <p style="font-size: 0.85rem; color: var(--text-muted);">
+          Note: If running locally for testing, replace with <code>http://localhost:3000/embed.js</code>.
+        </p>
+      </div>
+
+      <!-- Tab 2: Custom API Base -->
+      <div id="tab-custom" class="tab-content">
+        <p style="margin-bottom: 0.8rem; font-size: 0.95rem; color: #cbd5e1;">
+          If the script is hosted on a CDN or different domain than the backend API:
+        </p>
+        <div class="code-block-wrapper">
+          <div class="code-block-header">
+            <span>Explicit Backend API Host</span>
+            <button class="copy-btn" onclick="copySnippet('snippet-2')">Copy Code</button>
+          </div>
+          <pre id="snippet-2">&lt;script&gt;
+  window.SRM_CHAT_API_URL = "https://api-chatbot.srmtrichy.edu.in";
+&lt;/script&gt;
+&lt;script src="https://cdn.srmtrichy.edu.in/srm-tamil-widget.js"&gt;&lt;/script&gt;</pre>
+        </div>
+      </div>
+
+      <!-- Tab 3: React / Next.js -->
+      <div id="tab-react" class="tab-content">
+        <p style="margin-bottom: 0.8rem; font-size: 0.95rem; color: #cbd5e1;">
+          In Next.js (App or Pages Router) or Vite React application:
+        </p>
+        <div class="code-block-wrapper">
+          <div class="code-block-header">
+            <span>Next.js / React Component</span>
+            <button class="copy-btn" onclick="copySnippet('snippet-3')">Copy Code</button>
+          </div>
+          <pre id="snippet-3">// app/layout.tsx or pages/_app.tsx
+import Script from 'next/script';
+
+export default function RootLayout({ children }) {
+  return (
+    &lt;html lang="en"&gt;
+      &lt;body&gt;
+        {children}
+        &lt;Script 
+          src="https://your-chatbot-server.com/srm-tamil-widget.js" 
+          strategy="lazyOnload" 
+        /&gt;
+      &lt;/body&gt;
+    &lt;/html&gt;
+  );
+}</pre>
+        </div>
+      </div>
+
+      <!-- Tab 4: WordPress -->
+      <div id="tab-wp" class="tab-content">
+        <p style="margin-bottom: 0.8rem; font-size: 0.95rem; color: #cbd5e1;">
+          For WordPress administrators:
+        </p>
+        <ol class="instruction-list">
+          <li>Install the <strong>"Insert Headers and Footers"</strong> (WPCode) plugin or go to <strong>Appearance → Theme File Editor → footer.php</strong>.</li>
+          <li>Paste the embed code into the <strong>"Scripts in Footer"</strong> field:</li>
+        </ol>
+        <div class="code-block-wrapper" style="margin-top: 1rem;">
+          <div class="code-block-header">
+            <span>WordPress Footer Code</span>
+            <button class="copy-btn" onclick="copySnippet('snippet-4')">Copy Code</button>
+          </div>
+          <pre id="snippet-4">&lt;script src="https://your-chatbot-server.com/srm-tamil-widget.js" defer&gt;&lt;/script&gt;</pre>
+        </div>
+      </div>
+
+      <div class="demo-hint">
+        <span>💡</span>
+        <div>
+          <strong>Live Demo Active Right Now!</strong> Look at the bottom-right corner of this page — click the gold SRM Chat bubble to interact with the fully trained RAG chatbot.
+        </div>
+      </div>
+    </div>
+
+    <!-- Features & Capabilities -->
+    <div class="section-card">
+      <h2 class="section-title">
+        <span>⚡</span> Comprehensive Architecture & Capabilities
+      </h2>
+      <p class="section-desc">
+        All 7 faculties and administrative departments of SRM Trichy are deeply indexed.
+      </p>
+
+      <div class="features-grid">
+        <div class="feature-item">
+          <h4>🏛️ 7 Faculties Covered</h4>
+          <p>Engineering &amp; Tech, Medicine &amp; Health Sciences, Management, Science &amp; Humanities, Physiotherapy, Nursing, and Occupational Therapy.</p>
+        </div>
+
+        <div class="feature-item">
+          <h4>🏥 Hospital &amp; Emergency</h4>
+          <p>Direct coverage of the 1,000+ bed SRM Medical College Hospital, 24/7 Emergency Casualty (0431-2258888), NABH/NABL accreditations, and free outpatient services.</p>
+        </div>
+
+        <div class="feature-item">
+          <h4>💼 Placements &amp; CDC</h4>
+          <p>Highest CTC (₹35 LPA), 90%+ placement rate, top recruiters (Amazon, TCS, Infosys, Zoho, Cognizant, Wipro), and comprehensive 4-year soft-skills training.</p>
+        </div>
+
+        <div class="feature-item">
+          <h4>📝 Admissions &amp; Online Portals</h4>
+          <p>Eligibility criteria, SRMJEEE / TNEA codes, international admissions, and direct application links (registration.srmtrichy.edu.in).</p>
+        </div>
+
+        <div class="feature-item">
+          <h4>🧠 Autonomous Q&amp;A Learning</h4>
+          <p>When visitors ask new questions, the learning engine automatically extracts answers from verified university documents, remembers them, and serves future queries instantly.</p>
+        </div>
+
+        <div class="feature-item">
+          <h4>🌐 English &amp; Tamil Exclusivity</h4>
+          <p>Bilingual intelligence tailored specifically for Tamil Nadu and international aspirants with short, sweet, and precise responses under 45 words.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 SRM Institute of Science and Technology, Tiruchirappalli Campus. Autonomous RAG AI Chatbot System.</p>
+  </footer>
+
+  <script>
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+      event.target.classList.add('active');
+    }
+
+    function copySnippet(id) {
+      const text = document.getElementById(id).innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        const btn = event.target;
+        const orig = btn.innerText;
+        btn.innerText = "Copied!";
+        btn.style.background = "var(--success)";
+        btn.style.color = "#fff";
+        btn.style.borderColor = "var(--success)";
+        setTimeout(() => {
+          btn.innerText = orig;
+          btn.style.background = "";
+          btn.style.color = "";
+          btn.style.borderColor = "";
+        }, 2000);
+      });
+    }
+  </script>
+
+  <!-- Live Chatbot Script Embedding -->
+  <script src="/srm-tamil-widget.js"></script>
+</body>
+</html>

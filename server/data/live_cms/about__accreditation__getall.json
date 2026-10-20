@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "6a38e237c04a11e4394f3ce9",
+    "title": "NAAC A++ Accreditated",
+    "image": "image-1789123467081.png",
+    "description": "SRM Institute of Science and Technology, (formerly SRM University) has been recently accredited with the highest grade A++ (3.58/4.0) by NAAC (National Assessment and Accreditation Council) for 16.08.2018 – 15.08.2023. It is another feather on SRMIST’s cap as it prides over being awarded the highest ranking given to institutions. In the new accreditation process, about 70% weightage is assigned to quantitative metrics.",
+    "createdAt": "2026-06-22T07:20:23.358Z",
+    "updatedAt": "2026-09-19T03:57:02.707Z",
+    "__v": 0,
+    "order_id": 1
+  },
+  {
+    "_id": "6a390a8212cab726267ce975",
+    "title": "University Grants Commission",
+    "image": "image-1789123323754.jpg",
+    "description": "SRMIST has been placed under Category I University by UGC / Ministry of Education as per the UNIVERSITY GRANTS COMMISSION [CATEGORIZATION OF UNIVERSITIES (ONLY) FOR GRANT OF GRADED AUTONOMY] REGULATIONS, 2018 \r\nBy becoming Category I University with 12 B Status, SRMIST is in elite group of 2 Central Universities, 12 State Universities and 11 Deemed to be Universities in India. In Tamil Nadu, only three Universities, including SRMIST, have been granted this rare distinction.",
+    "createdAt": "2026-06-22T10:12:18.710Z",
+    "updatedAt": "2026-09-19T03:57:02.504Z",
+    "__v": 0,
+    "order_id": 2
+  },
+  {
+    "_id": "6a390ab112cab726267ce976",
+    "title": "IET Accreditation",
+    "image": "image-1789123245859.jpg",
+    "description": "Following programs of Kattankulathur Campus are accredited by The Institution of Engineering and Technology (IET) – Till 2022. Visit https://www.theiet.org/ for more information. \r\n\r\n\r\nB.Tech Computer Science and Engineering | B.Tech Software Engineering | B.Tech Electronics and Instrumentation Engineering | B.Tech Automobile Engineering",
+    "createdAt": "2026-06-22T10:13:05.364Z",
+    "updatedAt": "2026-09-19T03:57:02.504Z",
+    "__v": 0,
+    "order_id": 3
+  },
+  {
+    "_id": "6a390af612cab726267ce977",
+    "title": "Engineering Accreditation Commission of ABET",
+    "image": "image-1789123226984.jpg",
+    "description": "Following programs of Kattankulathur Campus are accredited by the Engineering Accreditation Commission of\r\n\r\nABET, http://www.abet.org. – Till 30.09.2023\r\n\r\nB.Tech Civil Engineering | B.Tech Mechanical Engineering | B.Tech Electrical and Electronics Engineering | B.Tech Electronics and Communication Engineering",
+    "createdAt": "2026-06-22T10:14:14.068Z",
+    "updatedAt": "2026-09-19T03:57:02.504Z",
+    "__v": 0,
+    "order_id": 4
+  },
+  {
+    "_id": "6a390b3512cab726267ce978",
+    "title": "Computing Accreditation Commission of ABET",
+    "image": "image-1789123236588.jpg",
+    "description": "Following program of Kattankulathur Campus is accredited by the Computing Accreditation Commission of ABET,  http://www.abet.org – Till 30.09.2023\r\n\r\nB.Tech Information Technology",
+    "createdAt": "2026-06-22T10:15:17.152Z",
+    "updatedAt": "2026-09-19T03:57:02.504Z",
+    "__v": 0,
+    "order_id": 5
+  },
+  {
+    "_id": "6a390b5412cab726267ce979",
+    "title": "ICAR",
+    "image": "image-1789123180198.jpg",
+    "description": "SRM College of Agricultural Sciences is Accredited by Indian Council of Agricultural Research (ICAR).",
+    "createdAt": "2026-06-22T10:15:48.697Z",
+    "updatedAt": "2026-09-19T03:57:02.504Z",
+    "__v": 0,
+    "order_id": 6
+  }
+]

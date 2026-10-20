@@ -1,0 +1,15 @@
+{
+  "url": "https://www.srmtrichy.edu.in/departments/cse",
+  "route": "/departments/cse",
+  "title": "Department of Computer Science & Engineering | SRM IST Trichy",
+  "category": "departments",
+  "status": 200,
+  "contentLength": 685,
+  "text": "DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING (CSE) - SRM IST TRICHY:\nHead of the Department: Dr. S. Kanaga Suba Raja (Professor & HoD, CSE).\nDegrees: B.Tech, M.Tech, and Ph.D. in Computer Science and Engineering.\n\nCURRICULUM FOCUS:\n• Algorithms, Data Structures, Full-Stack Development, Cloud Computing, Database Engineering, Operating Systems, Machine Learning.\n• Industry Specializations: Blockchain Technology, Internet of Things (IoT), Medical Engineering.\n• Coding Clubs & Hackathons: Active student chapters of ACM, IEEE Computer Society, and Google Developer Groups (GDG).\n• 100% Placement Record in Top Tier Tech: Amazon, Zoho, TCS Ninja/Digital, Infosys, Capgemini, Virtusa.",
+  "hyperlinks": [
+    "https://www.srmtrichy.edu.in/departments/ai-ds",
+    "https://www.srmtrichy.edu.in/departments/cyber-security",
+    "https://www.srmtrichy.edu.in/admission"
+  ],
+  "scrapedAt": "2026-10-20T11:06:31.849Z"
+}

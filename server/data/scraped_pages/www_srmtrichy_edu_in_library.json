@@ -1,0 +1,13 @@
+{
+  "url": "https://www.srmtrichy.edu.in/library",
+  "route": "/library",
+  "title": "Central Digital Library & Knowledge Resource Centre | SRM IST Trichy",
+  "category": "infrastructure",
+  "status": 200,
+  "contentLength": 419,
+  "text": "CENTRAL DIGITAL LIBRARY & RESOURCE CENTRE - SRM IST TRICHY:\nFully automated air-conditioned library with KOHA LMS and RFID automated book check-out.\nHoldings: 50,000+ volumes, 12,000+ titles, 150+ print national and international journals.\nDigital Subscriptions: IEEE Xplore Digital Library, ScienceDirect, SpringerLink, EBSCO, DELNET, and NPTEL / SWAYAM video server with 100+ dedicated multimedia computing terminals.",
+  "hyperlinks": [
+    "https://www.srmtrichy.edu.in/"
+  ],
+  "scrapedAt": "2026-10-20T11:06:31.854Z"
+}

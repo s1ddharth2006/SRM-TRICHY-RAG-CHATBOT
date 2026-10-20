@@ -1,0 +1,79 @@
+{
+  "success": true,
+  "data": [
+    {
+      "orderId": 1,
+      "_id": "6a0bec2d9cd76bb62b95f900",
+      "name": "Engineering and Technology",
+      "vision": "Our goal is to deliver world class, solutions driven programs that inspire curiosity and generate new knowledge and discoveries. Our collaboration with over 50 of the world’s best universities and 215 corporates, strengthens our academic and research programs.",
+      "mission": "Our mission is to seek solutions to global challenges by using the power of engineering principles, techniques and systems. We believe that engineers should not only possess deep technical excellence, but also nurture creativity, cultural awareness and entrepreneurial skills that come from exposure to science, business, medicine and other disciplines all integral part of the SRM experience.",
+      "__v": 0,
+      "slug": "engineering-and-technology",
+      "updatedAt": "2026-10-05T11:46:55.385Z"
+    },
+    {
+      "orderId": 1,
+      "_id": "6a0bf2969cd76bb62b95f901",
+      "name": "Science & Humanities",
+      "vision": "To be a premier institution that nurtures talent, fosters innovation, and empowers students to become responsible global citizens, contributing to societal progress through knowledge, ethics, and sustainable development.\n\nTo be a premier institution that nurtures talent, fosters innovation, and empowers students to become responsible global citizens, contributing to societal progress through knowledge, ethics, and sustainable development.",
+      "mission": "To provide an inclusive, student-centered learning environment that emphasizes academic excellence, critical thinking, and hands-on experience. SRM Trichy is committed to advancing interdisciplinary research, fostering industry partnerships, and promoting values that cultivate leadership and social responsibility. These values form the foundation of SRM Trichy’s approach to holistic education, preparing students to thrive in a dynamic world.",
+      "__v": 0,
+      "slug": "science-humanities",
+      "updatedAt": "2026-09-16T16:24:35.057Z"
+    },
+    {
+      "orderId": 1,
+      "_id": "6a0bf3049cd76bb62b95f902",
+      "name": " Faculty of Management",
+      "vision": "To be a renowned Business School in Asia that impacts Business, Society, and\nEnvironment",
+      "mission": "Advancing knowledge and practice through research, innovation and collaboration for the progress of students and to positively impact the stakeholders, business, community and environment",
+      "__v": 0,
+      "updatedAt": "2026-09-16T16:24:35.425Z",
+      "slug": "faculty-of-management"
+    },
+    {
+      "orderId": 1,
+      "_id": "6a10062ed609878e709ec0d7",
+      "name": "Institute of Hotel Management",
+      "vision": "Our vision is to be an internationally recognized portal for the Hospitality industry by developing professionals for the future needs of the industry.",
+      "mission": "SRM Institute of Hotel Management is committed in creating potential leaders for an expanding hospitality industry who will be capable of competing for senior positions in a global market place.  SRM Institute of Hotel Management is dedicated exclusively to the creation, development and amelioration of the professional careers of mid to senior executives in the hospitality industry.",
+      "createdAt": "2026-05-22T07:30:54.270Z",
+      "updatedAt": "2026-09-16T16:24:35.793Z",
+      "__v": 0,
+      "slug": "institute-of-hotel-management"
+    },
+    {
+      "orderId": 1,
+      "_id": "6a100650d609878e709ec0d8",
+      "name": "College of Physiotherapy",
+      "vision": "To emerge as a World class center of excellence in imparting Physiotherapy Education and providing a comprehensive training by developing the intellectual strengths of students and guiding them towards scientific excellence that will promote advanced research and high-quality patient care for the betterment of mankind.",
+      "mission": "DEVELOP positive learning community, to provide high levels of skill-based training and professional attitude among students.\n\nENCOURAGE evidence-based management in the treatment of patients and to meet the health care needs of the society.\n\nEQUIP physiotherapists to exercise leadership for making contributions in their respective discipline",
+      "createdAt": "2026-05-22T07:31:28.206Z",
+      "updatedAt": "2026-09-16T16:24:36.161Z",
+      "__v": 0,
+      "slug": "college-of-physiotherapy"
+    },
+    {
+      "orderId": 1,
+      "_id": "6a100683d609878e709ec0d9",
+      "name": "College of Occupational Therapy",
+      "vision": "To promote international standards of excellence and competency in academics and clinical practice in Occupational Therapy.\nTo enhance the health, well-being, and quality of life of individuals, populations, and communities across diverse settings.\nTo harness the full potential of innovation, collaboration, and advanced practices in addressing emerging healthcare challenges.",
+      "mission": "To provide high-quality academic and clinical education that develops competent, ethical, and skilled occupational therapy professionals capable of delivering client-centered rehabilitation services.\nTo create a dynamic learning environment that fosters critical thinking, research aptitude, and the application of evidence-based practice in occupational therapy.\nTo strengthen academic excellence by promoting advanced knowledge, innovation, and scholarly research in rehabilitation sciences.\nTo inculcate professional ethics, integrity, compassion, confidence, and social responsibility while promoting the welfare of individuals, communities, and the profession.\nTo develop leadership, advocacy, and collaborative skills that contribute to the advancement of occupational therapy and improved health outcomes for diverse populations.",
+      "createdAt": "2026-05-22T07:32:19.594Z",
+      "updatedAt": "2026-09-16T16:24:36.529Z",
+      "__v": 0,
+      "slug": "college-of-occupational-therapy"
+    },
+    {
+      "orderId": 1,
+      "_id": "6a1006f4d609878e709ec0da",
+      "name": "Allied Health Sciences",
+      "vision": "To be a center of excellence in allied health sciences by nurturing competent, compassionate, and globally competent healthcare professionals through innovative education, clinical excellence, research, and community engagement.",
+      "mission": "To provide industry-integrated, patient-centered education through quality teaching, clinical training, and experiential learning while promoting excellence in research, innovation, and evidence-based healthcare. The institution is committed to developing ethical, skilled, and compassionate allied health professionals through holistic education and expert mentorship, and to strengthening healthcare through strategic collaborations, community engagement, and global partnerships.\n",
+      "createdAt": "2026-05-22T07:34:12.645Z",
+      "updatedAt": "2026-09-16T16:24:36.897Z",
+      "__v": 0,
+      "slug": "allied-health-sciences"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+[
+  {
+    "orderId": 1,
+    "_id": "6a0c50c54cb3b437aeb8d764",
+    "institutionId": "6a0bec2d9cd76bb62b95f900",
+    "name": "School of Computing",
+    "slug": "cse",
+    "about": "The future of computing is fostered by the School of Computing Technologies. The school's mission is to advance, develop, and improve the foundations of computer science and engineering in order to contribute to society's intellectual capital. The school aspires to be a significant hub for computers and its applications development on a regional, national, and worldwide scale. It is succeeding by staying abreast of current developments and exhibiting signs of explosive and exponential expansion. Throughout their studies, the students are exposed to a wide range of opportunities, including workshops, internships, and in-plant training. The school is very open to highly promising initiatives including faculty development programs, industry-based joint project creation, hackathons, semester-abroad programs, NSS, etc. on a regular basis.",
+    "createdAt": "2026-05-19T12:00:05.169Z",
+    "updatedAt": "2026-06-18T04:24:30.030Z",
+    "__v": 0
+  },
+  {
+    "orderId": 1,
+    "_id": "6a101749d609878e709ec0de",
+    "institutionId": "6a0bec2d9cd76bb62b95f900",
+    "name": "School of Electrical and Electronics Engineering ",
+    "slug": "school-eee",
+    "about": "The School of Electrical and Electronics Engineering (SEEE) at SRM Institute of Science and Technology (SRMIST), Tiruchirappalli, was established in 2021 with a commitment to excellence in education, research, and innovation. With a dynamic and forward-thinking approach, SEEE has emerged as a leading academic unit on campus, fostering an ecosystem of technical expertise, interdisciplinary collaboration, and societal impact. Our vision is to nurture world-class engineers equipped with cutting-edge knowledge, problem-solving abilities, and research acumen to address real-world challenges in the field of Electrical, Electronics and Biomedical Engineering. SEEE is dedicated to preparing students for the ever-evolving technological landscape by offering an industry-aligned curriculum, hands-on learning experiences, and research-driven education. The school offers four undergraduate (B. Tech.), one post graduate (M. Tech.) and Ph. D. programmes, ensuring a strong foundation in core engineering principles while integrating emerging technologies. These programs are designed to provide a comprehensive learning experience, covering fundamental concepts and advanced specializations such as artificial intelligence, machine learning, 5G communication, Internet of Things (IoT), renewable energy systems, smart grid technologies, and biomedical innovations. SEEE fosters an active research culture by encouraging faculty and students to engage in cutting-edge projects. With a state-of-the-art infrastructure, well-equipped laboratories, and collaborations with industries and research organizations. SEEE actively collaborates with industry partners, enabling students to participate in internships, industry sponsored projects, and technical workshops. Our curriculum is designed to equip graduates with the technical expertise, analytical skills, and entrepreneurial mindset required to excel in core industries, research institutions, and emerging tech sectors. At SEEE, we are committed to providing a dynamic learning environment that blends academic rigor with real-world applications. Our passionate faculty, modern infrastructure, and student-centric approach ensure that our graduates emerge as innovative leaders, researchers, and entrepreneurs in the ever-growing field of Electrical and Electronics Engineering.",
+    "createdAt": "2026-05-22T08:43:53.829Z",
+    "updatedAt": "2026-05-22T08:43:53.829Z",
+    "__v": 0
+  },
+  {
+    "orderId": 1,
+    "_id": "6a1017b5d609878e709ec0e0",
+    "institutionId": "6a0bec2d9cd76bb62b95f900",
+    "name": "School of Sciences",
+    "slug": "science",
+    "about": "The school encompasses three major divisions namely Division of Mathematics, Physics and Chemistry. A brilliant team of faculty members who have specialized in Mathematics, Physics and Chemistry, form the School of Sciences",
+    "createdAt": "2026-05-22T08:45:41.029Z",
+    "updatedAt": "2026-06-02T05:59:16.460Z",
+    "__v": 0
+  },
+  {
+    "orderId": 1,
+    "_id": "6a1017f6d609878e709ec0e1",
+    "institutionId": "6a0bec2d9cd76bb62b95f900",
+    "name": "School of Language",
+    "slug": "language",
+    "about": "The School of Language, Culture and Society (LCS) under the School of Languages is dedicated to exploring the interconnections between language, literature, communication, and culture in a globalized and technologically evolving world. The division offers courses in multiple languages such as English, German, Japanese and French, which are integral components of the engineering curriculum. These linguistic disciplines empower students with the communicative competence necessary for industry readiness, professional articulation, and effective self-expression.\n\nAligned with the institution’s vision of holistic education, the division integrates language learning with cultural literacy and humanistic inquiry, complementing the university’s strong foundation in science and technology. The pedagogical objective of the School of Languages is to foster linguistic mastery and intercultural awareness among students, skills that are essential for academic excellence, international collaboration, and successful career placements.\n\nThe Division of English actively promotes literary and cultural engagement through its literary forum, the John Milton English Club. The club offers a vibrant platform for students to explore diverse literary genres, participate in creative and critical discussions, and develop their analytical and communication skills.\n\nThrough its academic programs, scholarly events, and cultural initiatives, the Division of Language, Culture and Society continues to nurture globally competent graduates who are equipped with strong linguistic abilities, cultural awareness, and the communicative skills necessary to thrive in contemporary professional environments.",
+    "createdAt": "2026-05-22T08:46:46.808Z",
+    "updatedAt": "2026-08-12T12:19:00.190Z",
+    "__v": 0
+  },
+  {
+    "orderId": 1,
+    "_id": "6a10181fd609878e709ec0e2",
+    "institutionId": "6a0bec2d9cd76bb62b95f900",
+    "name": "School of Mechanical Engineering",
+    "slug": "mechanical",
+    "about": "Mechanical Engineering: Driven by Innovation, Defining the Future\nMechanical Engineering forms the backbone of modern industry, integrating physics, materials science, and engineering principles to design, analyze, manufacture, and maintain mechanical systems. It has played a vital role in shaping human civilization, from early machinery to advanced technologies in automation, robotics, healthcare, and renewable energy.\nA B.Tech in Mechanical Engineering provides a strong foundation in core concepts and opens diverse career paths, including Design, Manufacturing, Thermal, Automotive, Aerospace, and Robotics Engineering. With emerging technologies like AI, IoT, and additive manufacturing, mechanical engineers drive Industry 4.0. \nFor higher studies, options like M.E./M.Tech., MS, MBA, or research programs enable specialization in advanced and innovative fields.\n",
+    "createdAt": "2026-05-22T08:47:27.407Z",
+    "updatedAt": "2026-08-11T05:58:10.990Z",
+    "__v": 0
+  },
+  {
+    "orderId": 1,
+    "_id": "6a102b14cb9c1639510ab055",
+    "institutionId": "6a0bf2969cd76bb62b95f901",
+    "name": "Department of Computer Science",
+    "slug": "cs",
+    "about": "The Department of Computer Science at SRM Institute of science and technology, campus started in the year 2021.\nThe objective of this department is to provide students with the knowledge and skills they need to succeed in the rapidly evolving world of technology includes Data science ,Artificial Intelligence, Networking ,Machine learning and Deep learning, Cyber security and other emerging field of computer science.\n",
+    "createdAt": "2026-05-22T10:08:20.448Z",
+    "updatedAt": "2026-08-05T06:06:16.134Z",
+    "__v": 0
+  },
+  {
+    "orderId": 1,
+    "_id": "6a10310ecb9c1639510ab059",
+    "institutionId": "6a0bf2969cd76bb62b95f901",
+    "name": "Department of Commerce",
+    "slug": "commerce",
+    "about": "The Department of Commerce has started in the year 2021 as a department, it’s been recognized as an esteemed member for its significant contributing role in the growth and development of the College of Science and Humanities. Apart from the conventional classroom setup, SRM emphasizes practical learning as students participate in case studies, sessions with industry experts, live projects, etc. \nThe institute’s thrust on meaningful research is evident through the credentials and accomplishments of its faculty, which has publications Scopus listed journals of repute. In a short period, SRM has strengthened its position in the corporate world, with its students contributing to the illustrious business organizations of the country.\n",
+    "createdAt": "2026-05-22T10:33:50.027Z",
+    "updatedAt": "2026-08-05T06:06:32.885Z",
+    "__v": 0
+  },
+  {
+    "orderId": 1,
+    "_id": "6a1fb098b75d271bec423cc9",
+    "institutionId": "6a0bec2d9cd76bb62b95f900",
+    "name": "School of Biosciences and Technology",
+    "slug": "bio-tech",
+    "about": "The Department of Biotechnology under the School of Biosciences and Technology at SRMIST Tiruchirappalli offers a future-focused B.Tech Biotechnology programme that integrates biosciences, bioengineering, laboratory training, and real-world applications. The department provides students with strong foundations in microbiology, molecular biology,biochemistry, immunology, plant biotechnology, animal biotechnology, bioprocess technology, genetic engineering, and bioinformatics. With emphasis on practical learning,internships, project-based training, and research orientation, the department prepares students for careers in healthcare, pharmaceuticals, agriculture, food and industrial biotechnology,diagnostics, higher education, and entrepreneurship.",
+    "createdAt": "2026-06-03T04:42:00.866Z",
+    "updatedAt": "2026-06-17T05:09:21.146Z",
+    "__v": 0
+  },
+  {
+    "orderId": 1,
+    "_id": "6a449f834410b9b6e877a843",
+    "institutionId": "6a0bf3049cd76bb62b95f902",
+    "name": "MBA",
+    "slug": "mba",
+    "about": "The Faculty of Management at SRM Institute of Science and Technology, Tiruchirappalli Campus, is dedicated to nurturing future-ready business leaders and management professionals. Established with a vision to blend academic excellence with practical industry exposure, the department offers a dynamic curriculum that integrates core management principles with emerging business trends, entrepreneurship, and ethical leadership.\nThe department offers undergraduate and postgraduate programmes, including BBA, MBA and PhD designed to equip students with strong analytical, decision-making, and communication skills. The curriculum is regularly updated in alignment with industry requirements and the UGC/AICTE guidelines, ensuring students remain competitive in the evolving global business environment.\nWith a team of experienced and research-oriented faculty, state-of-the-art infrastructure, and strong industry linkages, the Faculty of Management strives to create a stimulating learning environment. Students are encouraged to participate in case study competitions, internships, management fests, and live projects to gain real-world exposure and build their professional network.\n",
+    "createdAt": "2026-07-01T05:02:59.253Z",
+    "updatedAt": "2026-07-01T05:02:59.253Z",
+    "__v": 0
+  },
+  {
+    "orderId": 1,
+    "_id": "6a44a35f4410b9b6e877a846",
+    "institutionId": "6a0bf3049cd76bb62b95f902",
+    "name": "BBA",
+    "slug": "bba",
+    "about": "The BBA Department at SRM Institute of Science and Technology (SRM IST Trichy) is a dynamic academic unit focused on developing future business professionals. Established as part of a rapidly growing campus, the department offers a three-year undergraduate programme designed to build strong foundations in management, entrepreneurship, and leadership. The curriculum is structured across six semesters and includes core areas such as marketing, finance, human resources, and operations. \nThe department emphasizes practical learning through internships, industry exposure, and skill-based training. Students benefit from seminars, workshops, and interaction with industry experts, enhancing their managerial and analytical abilities. With experienced faculty and modern infrastructure, the department ensures a supportive academic environment. \nSRM IST Trichy also provides placement opportunities, with companies recruiting students and offering competitive salary packages. Overall, the BBA department aims to nurture competent, innovative, and industry-ready graduates.\n",
+    "createdAt": "2026-07-01T05:19:27.108Z",
+    "updatedAt": "2026-07-01T05:19:27.108Z",
+    "__v": 0
+  },
+  {
+    "orderId": 1,
+    "_id": "6a44a5084410b9b6e877a849",
+    "institutionId": "6a0bf3049cd76bb62b95f902",
+    "name": "MBA – Health Care and Hospital Management",
+    "slug": "mba",
+    "about": "The Faculty of Management at SRM Institute of Science and Technology, Tiruchirappalli Campus, is dedicated to\nnurturing future-ready business leaders and management professionals. Established with a vision to blend\nacademic excellence with practical industry exposure, the department offers a dynamic curriculum that integrates\ncore management principles with emerging business trends, entrepreneurship, and ethical leadership.\nThe department offers undergraduate and postgraduate programmes, including BBA and MBA, designed to equip\nstudents with strong analytical, decision-making, and communication skills. The curriculum is regularly updated in\nalignment with industry requirements and the UGC/AICTE guidelines, ensuring students remain competitive in the\nevolving global business environment.\nWith a team of experienced and research-oriented faculty, state-of-the-art infrastructure, and strong industry\nlinkages, the Faculty of Management strives to create a stimulating learning environment. Students are\nencouraged to participate in case study competitions, internships, management fests, and live projects to gain\nreal-world exposure and build their professional network.",
+    "createdAt": "2026-07-01T05:26:32.372Z",
+    "updatedAt": "2026-07-01T05:26:32.372Z",
+    "__v": 0
+  }
+]

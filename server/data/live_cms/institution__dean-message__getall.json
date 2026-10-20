@@ -1,0 +1,76 @@
+{
+  "success": true,
+  "data": [
+    {
+      "_id": "6a0c02f5d40ee9d73a820e97",
+      "institutionId": "6a0bec2d9cd76bb62b95f900",
+      "deanName": "Dr. Balasundaram R",
+      "deanImage": "facultyImage-1782459144220.jpg",
+      "message": "I am delighted to extend a warm welcome to all of you to the Faculty of Engineering and Technology at SRMIST Tiruchirappalli. Our faculty is dedicated to fostering excellence in education, research, and innovation.\r\nAt SRMIST, we strive to provide a vibrant learning environment that nurtures creativity, critical thinking, and problem-solving skills. Our comprehensive curriculum, state-of-the-art facilities, and esteemed faculty members ensure that our students are well-equipped to meet the challenges of the ever-evolving technological landscape.\r\nWe encourage collaboration, interdisciplinary research, and industry partnerships to address real-world problems and make meaningful contributions to society. Our commitment to excellence drives us to continuously enhance our programs and infrastructure, empowering our students to excel in their chosen fields.\r\nI invite you to explore the opportunities available at the Faculty of Engineering and Technology and join us on our journey towards academic and research excellence.",
+      "__v": 0,
+      "updatedAt": "2026-10-05T10:43:50.450Z",
+      "facultyId": "6a3e2b0842c7590f157a210e",
+      "hodDesignation": "Professor & Associate Dean",
+      "facultyOrderId": "mechanical-1",
+      "orderId": 1,
+      "facultyExperience": 30,
+      "facultyExperienceDisplay": "30",
+      "facultyScopeName": "School of Mechanical Engineering"
+    },
+    {
+      "_id": "6a0c05221601d3ffca3da363",
+      "institutionId": "6a0bf2969cd76bb62b95f901",
+      "deanName": " Dr.D.Francis Xavier Christopher",
+      "deanImage": "facultyImage-1782469192890.jpg",
+      "message": "“Education is not the learning of facts, but the training of the mind to think “– Albert Einstein.\r\nI am deeply honoured and privileged to welcome you all to \" Faculty of Science and Humanities of SRM Institute of Technology “, the temple of learning. Our mission is to provide a proficient teaching and learning experience on top of research to augment the intellectual, social, and spiritual growth of all stakeholders.\r\nOur aim to accord students a cutting edge will optimistically expand their knowledge of advanced transformations in the emerging competitive and technical world. Our strive for students’ Integrated development will not only aid them in knowledge generation, skills acquisition, and attitude development but transform them to become responsible citizens as well with paragons of virtue. We aspire to lead students towards academic excellence steering them holistically towards emotional, social, and spiritual growth in a relaxed and sheltered environment. The extensive dimensions of our institution will endow each student to be treated as a unique individual.\r\nApart from academics, students are encouraged to make the best opportune of the dynamic enrichment programmes and engage themselves in extracurricular activities including sports, drama, music, debating, leadership, and an extensive array of other special interest clubs. We spare no efforts to guarantee students gain access to numerous existing training opportunities and exciting innovations for their personal and professional development.\r\nSRMIST is a home to a critical mass of research-active staff of the highest calibre, working across an array of domains. Our institution will draw on its extensive, ever-expanding network of partners and collaborators both within the international higher education community and in the broader world.\r\nI look forward to welcoming you to ensure the best international standard of education and personal development for every child.",
+      "__v": 0,
+      "updatedAt": "2026-10-05T10:44:42.391Z",
+      "facultyId": "6a3e524842c7590f157a75ca",
+      "hodDesignation": "Professor & Dean",
+      "facultyOrderId": "cs-1",
+      "orderId": 1,
+      "facultyExperience": 26,
+      "facultyExperienceDisplay": "26",
+      "facultyScopeName": "Department of Computer Science"
+    },
+    {
+      "_id": "6a10085dd609878e709ec0dd",
+      "institutionId": "6a1006f4d609878e709ec0da",
+      "deanName": "Dr.Kumar Ebenezar K ",
+      "deanImage": "facultyImage-1783422075461.webp",
+      "message": "It is my pleasure and I feel honoured to be part of a well reputed educational institution where every stakeholder is a learner and every day is an opportunity to think intensively, learn critically and innovatively. We look at ourselves as learners in the institution where everyone learns including teachers, parents, students & staff with endless possibilities and growth with excitement. The strength of this partnership has certainly echoed in the growth and success of our students as well as the Institution at large. The supportive and inclusive approach of the management, the teachers and staff guarantee a rewarding and inspiring environment for the students to be happy, efficient and to be great citizens of our country.\r\nWith the vision and mission to emerge, create, disseminate knowledge and to provide opportunities for the student community to achieve global excellence, our Institute stands high in offering a unique learning experience with UG, PG & Research programmes in Science and Technology, Medical and Allied Health Sciences, Humanities, Management and other areas of social importance. I believe in keeping the high standards with an absolute commitment to strive, understand and improve the quality educational process with our team wholly centered on student empowerment, skills, creativity, research, innovation and achievement.\r\nIn achieving our goals, we are fortunate to have the state-of-the-art infra-structure facilities, advantage of committed and expert diverse team of faculty members and supporting staff at the College of Allied Health Sciences, SRMIST-Trichy campus that ensures the learning environment and mentoring of our students at its best. Our unique teaching and learning methods with well-designed multi-disciplinary programmes as well as the right blend of theory and practical, postings, internships and other activities in every Allied Health Sciences program offered takes the students to grow and excel in their field as industry ready, highly skilled experts and to achieve global excellence with infinite potentials.\r\nAt this outset, I would like to express my view on education that the goal and function of education is to provide the knowledge, character and to think intensively and critically to be a successful professional and a good citizen. As former Indian President A.P.J. Abdul Kalam once said, “Learning gives creativity, creativity leads to thinking, thinking provides knowledge, and knowledge makes you great human being”, the more you read, the more you learn. Mahatma Gandhi also said ‘you learn as if you wish to live forever’.\r\nI am confident that with the support of the management, faculty members, staff and students, we will continue to grow, prosper and reach new heights in the future. It is our responsibility to assure that no stone will be left unturned in helping the parents and students to realize their cherished goals. Being at SRMIST, we have a chance to learn, grow, leap, lead and make a difference in the world. We are excited to witness your growth, achievements, and to be a part of your journey!\r\n“If your actions inspire or attract others to dream more, you move up, learn more, do more and accomplish more. You are the one to serve for the betterment of mankind”",
+      "createdAt": "2026-05-22T07:40:13.206Z",
+      "updatedAt": "2026-10-05T10:44:18.839Z",
+      "__v": 0,
+      "facultyId": "6a4cdc7bb657230d6d636636",
+      "hodDesignation": "Professor & Principal",
+      "facultyOrderId": "allied-health-sciences-1",
+      "orderId": 1,
+      "facultyExperience": 19,
+      "facultyExperienceDisplay": "19",
+      "facultyScopeName": "Allied Health Sciences"
+    },
+    {
+      "_id": "6a0c0f5297b94f41f8358470",
+      "institutionId": "6a0bf3049cd76bb62b95f902",
+      "deanName": "Dr. Prabir Chandra Padhy",
+      "deanImage": "deanImage-1779175250369.jpg",
+      "message": "Welcome to the Faculty of Management at SRM Institute of Science and Technology,Tiruchirappalli.It gives me immense pleasure to address all aspiring managers, industry partners, academicians, alums, and stakeholders of our vibrant academic community. Management education today stands at the intersection of innovation, technology, sustainability, and human values. In such a rapidly evolving global environment, the role of business schools is no longer confined to imparting theoretical knowledge alone; rather, it is to nurture responsible leaders, critical thinkers, ethical decision-makers, and socially conscious professionals capable of creating meaningful impact. The Faculty of Management at SRMIST, Tiruchirappalli, is committed to developing future-ready management professionals through a carefully designed MBA programme that integrates academic precision with industry relevance. Our institution provides a dynamic learning ecosystem that fosters intellectual growth, analytical thinking, an entrepreneurial mindset, leadership excellence, and professional integrity.\r\nOur pedagogy combines classroom learning with experiential approaches, including case-based discussions, industry interactions, live projects, internships, simulations, research activities, and skill development initiatives. We strongly believe that management education must bridge the gap between academia and industry while simultaneously preparing students to address emerging challenges in business, society, and governance.\r\nIn the contemporary era driven by digital transformation and artificial intelligence, we encourage our students to embrace innovation, adaptability, interdisciplinary thinking, and lifelong learning. We aim to create professionals who are not only competent managers but also responsible global citizens with empathy, resilience, and ethical grounding.\r\nThe Faculty of Management is supported by dedicated faculty members, modern infrastructure, industry collaborations, and a learner-centric academic environment that fosters creativity and excellence. We also emphasize research, entrepreneurship, sustainability, and value-based education as integral components of managerial development.\r\nAs Associate Dean, I envision the Faculty of Management emerging as a center of academic distinction and industry engagement, contributing meaningfully to management education and societal progress. Together, let us strive to build a culture of excellence, innovation, inclusivity, and continuous transformation.I warmly invite students and stakeholders to join this exciting journey of learning, leadership, and growth.With best wishes,",
+      "createdAt": "2026-05-19T07:20:50.428Z",
+      "updatedAt": "2026-08-11T05:59:38.769Z",
+      "__v": 0,
+      "facultyUnavailable": false
+    },
+    {
+      "_id": "6a100802d609878e709ec0dc",
+      "institutionId": "6a100683d609878e709ec0d9",
+      "deanName": "Dr. D Suresh, Ph.D",
+      "deanImage": "deanImage-1779435522378.jpg",
+      "message": "At SRM College of Occupational Therapy, Trichy, is a premier academic unit dedicated to training skilled, compassionate, and research-oriented occupational therapy professionals. Established under the National we are committed to nurturing compassionate, competent, and research-driven rehabilitation professionals. Our programs are designed in alignment with NCAHP Act, 2021.We maintain national standards, equipping students with evidence-based clinical skills, ethical values, and the innovation mindset needed to serve individuals of all ages across diverse healthcare settings The curriculum integrates strong clinical training in 11 specialized laboratories, community outreach, MOU-based hospital partnerships, and a focus on innovation, evidence-based practice, and interdisciplinary rehabilitation. (BOT), postgraduate (MOT), and doctoral (PhD) programs aligned with the Faculty of Health Sciences, the school offers undergraduate",
+      "createdAt": "2026-05-22T07:38:42.422Z",
+      "updatedAt": "2026-07-09T11:53:45.373Z",
+      "__v": 0,
+      "facultyUnavailable": false
+    }
+  ]
+}

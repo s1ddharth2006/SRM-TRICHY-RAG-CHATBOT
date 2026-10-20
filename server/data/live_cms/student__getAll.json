@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "studentTestimonials": [
+    {
+      "_id": "6a44b8c88c92945fddf72976",
+      "name": "Safi Abbas",
+      "role": "CSE Data Science Department",
+      "videoId": "_G98tu5Ik-M"
+    },
+    {
+      "_id": "6a44b8c88c92945fddf72977",
+      "name": "Mithra",
+      "role": "IInd Year Occupational Therapy",
+      "videoId": "QDw-a9Z6Z7M"
+    },
+    {
+      "_id": "6a44b8c88c92945fddf72978",
+      "name": "Neha Iyer",
+      "role": "IIIrd Year B.Tech CSE",
+      "videoId": "-d3xEdbQ7Z4"
+    },
+    {
+      "_id": "6a44b8c88c92945fddf72979",
+      "name": "Anika",
+      "role": "IIIrd Year B.Sc MIT",
+      "videoId": "Yzkg6grH6zg"
+    },
+    {
+      "_id": "6a44b8c88c92945fddf7297a",
+      "name": "Abi Varshini",
+      "role": "M.Sc Allied Health Science",
+      "videoId": "Bxo2ANs9vBU"
+    },
+    {
+      "_id": "6a44b8c88c92945fddf7297b",
+      "name": "Deepith",
+      "role": "B.Tech Cyber Security",
+      "videoId": "B2gPMOT-E0M"
+    },
+    {
+      "_id": "6a44b8c88c92945fddf7297c",
+      "name": "Rashmika",
+      "role": "BPT",
+      "videoId": "LIBC9SPOdBE"
+    }
+  ]
+}

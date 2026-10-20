@@ -1,0 +1,86 @@
+{
+  "success": true,
+  "data": [
+    {
+      "_id": "6a1d14283d0191a316d660d6",
+      "instituteId": "6a0bec2d9cd76bb62b95f900",
+      "instituteStats": [
+        {
+          "name": "Student",
+          "value": 4934,
+          "_id": "6a1d14283d0191a316d660d7"
+        },
+        {
+          "name": "Faculty",
+          "value": 128,
+          "_id": "6a1d14283d0191a316d660d8"
+        },
+        {
+          "name": "Events",
+          "value": 575,
+          "_id": "6a1d14283d0191a316d660d9"
+        },
+        {
+          "name": "Publications",
+          "value": 725,
+          "_id": "6a1d14283d0191a316d660da"
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "6a38cf691ea7c5216486970c",
+      "instituteId": "6a10062ed609878e709ec0d7",
+      "instituteStats": [
+        {
+          "name": "Students",
+          "value": 339,
+          "_id": "6a38cfa21ea7c52164869723"
+        },
+        {
+          "name": "Faculty",
+          "value": 12,
+          "_id": "6a38cfa21ea7c52164869724"
+        },
+        {
+          "name": "Events",
+          "value": 60,
+          "_id": "6a38cfa21ea7c52164869725"
+        },
+        {
+          "name": "Publications",
+          "value": 12,
+          "_id": "6a38cfa21ea7c52164869726"
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "6a4f8c81631c6c9ea019393e",
+      "instituteId": "6a100683d609878e709ec0d9",
+      "instituteStats": [
+        {
+          "name": "Specialized Clinical & Skills Laboratories",
+          "value": 11,
+          "_id": "6a746d2cb7e789d9c2bb140f"
+        },
+        {
+          "name": "Smart Classrooms",
+          "value": 6,
+          "_id": "6a746d2cb7e789d9c2bb1410"
+        },
+        {
+          "name": "Library Books",
+          "value": 700,
+          "_id": "6a746d2cb7e789d9c2bb1411"
+        },
+        {
+          "name": "MOU Partners",
+          "value": 5,
+          "_id": "6a746d2cb7e789d9c2bb1412"
+        }
+      ],
+      "__v": 0
+    }
+  ]
+}

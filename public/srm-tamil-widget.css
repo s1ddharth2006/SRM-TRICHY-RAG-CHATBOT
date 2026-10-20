@@ -1,0 +1,1214 @@
+/* ==========================================================================
+   SRM IST Trichy — Official Admissions Chatbot Widget
+   Brand Palette: SRM Royal Navy Blue (#0c4da2) & SRM Academic Gold (#e4b316)
+   ========================================================================== */
+
+/* Design Tokens — Official SRM Brand Palette */
+:root {
+  --srm-navy: #0c4da2;
+  --srm-navy-dark: #083875;
+  --srm-navy-light: #1b5cb8;
+  --srm-blue-accent: #2962ae;
+  --srm-gold: #e4b316;
+  --srm-gold-hover: #cfa10f;
+  --srm-gold-soft: #fef9e7;
+  --srm-gold-border: rgba(228, 179, 22, 0.45);
+  --srm-chat-bg: #f8fafc;
+  --srm-incoming: #ffffff;
+  --srm-outgoing: #e8f0fe;
+  --srm-outgoing-border: #bfdbfe;
+  --srm-text-primary: #1a2332;
+  --srm-text-secondary: #475569;
+  --srm-text-muted: #64748b;
+  --srm-ticks: #0c4da2;
+  --srm-panel-bg: #f1f5f9;
+  --srm-border: #e2e8f0;
+  --srm-border-dark: #cbd5e1;
+  --srm-shadow: 0 1px 3px rgba(12, 77, 162, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --srm-shadow-window: 0 16px 48px rgba(11, 29, 53, 0.22), 0 4px 14px rgba(12, 77, 162, 0.12);
+
+  /* Compatibility aliases */
+  --wa-teal: var(--srm-navy);
+  --wa-teal-dark: var(--srm-navy-dark);
+  --wa-teal-light: var(--srm-navy-light);
+  --wa-green: var(--srm-navy);
+  --wa-green-hover: var(--srm-navy-dark);
+  --wa-chat-bg: var(--srm-chat-bg);
+  --wa-incoming: var(--srm-incoming);
+  --wa-outgoing: var(--srm-outgoing);
+  --wa-text-primary: var(--srm-text-primary);
+  --wa-text-secondary: var(--srm-text-secondary);
+  --wa-text-muted: var(--srm-text-muted);
+  --wa-ticks: var(--srm-ticks);
+  --wa-panel-bg: var(--srm-panel-bg);
+  --wa-border: var(--srm-border);
+  --wa-border-dark: var(--srm-border-dark);
+  --wa-shadow: var(--srm-shadow);
+  --wa-shadow-window: var(--srm-shadow-window);
+}
+
+/* Global Reset for Widget */
+.niaa-chat-widget,
+.niaa-chat-widget * {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, 'Noto Sans Tamil', 'Noto Sans Devanagari', 'Noto Sans Telugu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Chat Widget Container */
+.niaa-chat-widget {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 2147483000;
+}
+
+/* Floating Admissions Chat Trigger Button */
+.niaa-chat-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0c4da2 0%, #1e5bb0 100%);
+  border: 2px solid rgba(228, 179, 22, 0.45);
+  cursor: pointer;
+  box-shadow: 0 8px 26px rgba(12, 77, 162, 0.42);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  outline: none;
+  color: #ffffff;
+}
+
+.niaa-chat-button:hover {
+  transform: scale(1.08) translateY(-2px);
+  background: linear-gradient(135deg, #083875 0%, #0c4da2 100%);
+  border-color: var(--srm-gold);
+  box-shadow: 0 12px 32px rgba(12, 77, 162, 0.58);
+}
+
+.niaa-chat-button .niaa-btn-icon-chat {
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.niaa-chat-button .niaa-btn-icon-close {
+  display: none;
+  transition: transform 0.2s ease;
+}
+
+.niaa-chat-button.active {
+  background: #083875;
+  border-color: var(--srm-gold);
+  box-shadow: 0 8px 24px rgba(8, 56, 117, 0.45);
+}
+
+.niaa-chat-button.active .niaa-btn-icon-chat {
+  display: none;
+}
+
+.niaa-chat-button.active .niaa-btn-icon-close {
+  display: block;
+  animation: srmRotateIn 0.25s ease;
+}
+
+@keyframes srmRotateIn {
+  from { transform: rotate(-90deg) scale(0.7); opacity: 0; }
+  to { transform: rotate(0) scale(1); opacity: 1; }
+}
+
+/* Chat Unread Badge - SRM Gold with Navy Counter */
+.niaa-chat-button .notification-badge {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 21px;
+  height: 21px;
+  background: var(--srm-gold);
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #083875;
+  font-size: 11px;
+  font-weight: 800;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  animation: srmPulse 2s infinite;
+}
+
+@keyframes srmPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
+
+/* Floating Notification Callout ("Need help?") */
+.niaa-indicator {
+  position: absolute;
+  bottom: 76px;
+  right: 0;
+  width: 295px;
+  background: #ffffff;
+  color: var(--srm-text-primary);
+  padding: 12px 14px;
+  border-radius: 12px;
+  box-shadow: 0 8px 26px rgba(12, 77, 162, 0.15);
+  border: 1px solid var(--srm-border);
+  border-left: 4px solid var(--srm-gold);
+  font-size: 13px;
+  line-height: 1.45;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.25s ease;
+  z-index: 2147482999;
+  animation: srmIndicatorFloat 3s ease-in-out infinite;
+}
+
+.niaa-indicator::after {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  right: 24px;
+  width: 14px;
+  height: 14px;
+  background: #ffffff;
+  border-right: 1px solid var(--srm-border);
+  border-bottom: 1px solid var(--srm-border);
+  transform: rotate(45deg);
+}
+
+.niaa-indicator-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #eef4fc;
+  color: var(--srm-navy);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.niaa-indicator-text {
+  flex: 1;
+  font-size: 12.5px;
+  color: var(--srm-text-primary);
+}
+
+.niaa-indicator-text strong {
+  color: var(--srm-navy);
+  font-weight: 700;
+}
+
+.niaa-indicator-close {
+  background: transparent;
+  border: none;
+  color: var(--srm-text-muted);
+  cursor: pointer;
+  padding: 4px;
+  line-height: 1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.15s;
+}
+
+.niaa-indicator-close:hover {
+  color: #ef4444;
+}
+
+@keyframes srmIndicatorFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+/* ==========================================================================
+   SRM Admissions Chat Window Panel
+   ========================================================================== */
+.niaa-chat-window {
+  position: absolute;
+  bottom: 78px;
+  right: 0;
+  width: 386px;
+  height: 590px;
+  max-height: calc(100vh - 100px);
+  background: var(--srm-chat-bg);
+  border-radius: 12px;
+  box-shadow: var(--srm-shadow-window);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(16px) scale(0.97);
+  transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid rgba(12, 77, 162, 0.14);
+}
+
+.niaa-chat-window.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) scale(1);
+}
+
+/* SRM Header (Royal Navy Blue with Gold Accent Border) */
+.niaa-chat-header {
+  background: linear-gradient(135deg, #0c4da2 0%, #1a56a6 100%);
+  border-bottom: 2.5px solid var(--srm-gold);
+  padding: 10px 14px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(12, 77, 162, 0.18);
+  z-index: 10;
+}
+
+.wa-header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+}
+
+.wa-avatar-wrapper {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.niaa-chat-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.18);
+  overflow: hidden;
+}
+
+.wa-avatar-online-dot {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 11px;
+  height: 11px;
+  background: #10b981;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
+.niaa-chat-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.niaa-chat-title-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 1px;
+}
+
+.niaa-chat-info h3 {
+  font-size: 15.5px;
+  margin: 0;
+  font-weight: 700;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: -0.1px;
+}
+
+.wa-verified-badge {
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.niaa-chat-info p {
+  font-size: 12px;
+  margin: 0;
+  color: #e2e8f0;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.niaa-chat-info p.typing {
+  color: #fde047;
+  font-weight: 500;
+}
+
+/* Header Action Buttons */
+.niaa-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.wa-header-btn,
+.niaa-header-btn,
+.niaa-chat-close {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: transparent;
+  border-radius: 50%;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.18s ease;
+  outline: none;
+  text-decoration: none;
+}
+
+.wa-header-btn:hover,
+.niaa-header-btn:hover,
+.niaa-chat-close:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* ==========================================================================
+   Language Segmented Bar
+   ========================================================================== */
+.niaa-lang-subbar {
+  background: var(--srm-chat-bg);
+  border-bottom: 1px solid var(--srm-border);
+  padding: 7px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  z-index: 5;
+}
+
+.niaa-lang-label {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--srm-text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.niaa-lang-bar {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.niaa-lang-btn {
+  background: #ffffff;
+  border: 1px solid var(--srm-border-dark);
+  color: var(--srm-text-secondary);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.16s ease;
+  outline: none;
+}
+
+.niaa-lang-btn:hover {
+  border-color: var(--srm-navy);
+  color: var(--srm-navy);
+  background: #eef4fc;
+}
+
+.niaa-lang-btn.active {
+  background: var(--srm-navy);
+  color: #ffffff;
+  border-color: var(--srm-navy);
+  box-shadow: 0 1px 4px rgba(12, 77, 162, 0.3);
+}
+
+/* ==========================================================================
+   Messages Canvas (Clean Campus Pattern & Speech Bubbles)
+   ========================================================================== */
+.niaa-chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px 14px 16px 14px;
+  background-color: var(--srm-chat-bg);
+  /* Clean subtle academic grid */
+  background-image: 
+    radial-gradient(#cbd5e1 0.75px, transparent 0.75px), 
+    radial-gradient(#cbd5e1 0.75px, var(--srm-chat-bg) 0.75px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  scroll-behavior: smooth;
+}
+
+/* Official SRM Desk Notice Banner */
+.wa-encryption-banner {
+  align-self: center;
+  background: var(--srm-gold-soft);
+  color: #78350f;
+  border: 1px solid #fde68a;
+  font-size: 11px;
+  line-height: 1.4;
+  padding: 5px 12px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 92%;
+  margin: 2px auto 6px auto;
+  box-shadow: 0 1px 2px rgba(12, 77, 162, 0.04);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.wa-encryption-banner svg {
+  flex-shrink: 0;
+  fill: #b45309;
+}
+
+/* Date Divider Pill ("TODAY") */
+.wa-date-divider {
+  align-self: center;
+  margin: 2px auto 6px auto;
+}
+
+.wa-date-divider span {
+  background: #ffffff;
+  color: var(--srm-text-muted);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 3px 12px;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--srm-border);
+}
+
+/* Message Rows */
+.niaa-message {
+  display: flex;
+  flex-direction: column;
+  max-width: 86%;
+  animation: srmMessageSlide 0.2s ease;
+  position: relative;
+}
+
+@keyframes srmMessageSlide {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.niaa-message.bot {
+  align-self: flex-start;
+}
+
+.niaa-message.user {
+  align-self: flex-end;
+}
+
+.niaa-message-avatar {
+  display: none;
+}
+
+/* Sender Label on Incoming Messages */
+.wa-sender-label {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--srm-navy);
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Incoming Bot Bubble (Pure White with Subtle Border) */
+.niaa-message.bot .niaa-message-content {
+  background: var(--srm-incoming);
+  color: var(--srm-text-primary);
+  border-radius: 8px;
+  border-top-left-radius: 0;
+  position: relative;
+  box-shadow: var(--srm-shadow);
+  border: 1px solid var(--srm-border);
+  padding: 7px 11px;
+  font-size: 13.5px;
+  line-height: 1.48;
+  word-break: break-word;
+}
+
+.niaa-message.bot .niaa-message-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -8px;
+  width: 0;
+  height: 0;
+  border-top: 0px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-right: 8px solid var(--srm-incoming);
+}
+
+/* Outgoing User Bubble (SRM Soft Royal Tint) */
+.niaa-message.user .niaa-message-content {
+  background: var(--srm-outgoing);
+  color: #0b2241;
+  border-radius: 8px;
+  border-top-right-radius: 0;
+  position: relative;
+  box-shadow: var(--srm-shadow);
+  border: 1px solid var(--srm-outgoing-border);
+  padding: 7px 11px;
+  font-size: 13.5px;
+  line-height: 1.48;
+  word-break: break-word;
+}
+
+.niaa-message.user .niaa-message-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -8px;
+  width: 0;
+  height: 0;
+  border-top: 0px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-left: 8px solid var(--srm-outgoing);
+}
+
+/* Bubble Content Formatting */
+.niaa-message-content strong {
+  color: var(--srm-navy);
+  font-weight: 700;
+}
+
+.niaa-message-content a {
+  color: var(--srm-navy);
+  text-decoration: underline;
+  word-break: break-all;
+}
+
+.niaa-message-content a:hover {
+  color: var(--srm-gold-hover);
+}
+
+/* Message Meta: Timestamp & Checkmarks */
+.wa-message-meta {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3px;
+  margin-top: 2px;
+  float: right;
+  margin-left: 10px;
+}
+
+.niaa-message-time {
+  font-size: 10.5px;
+  color: var(--srm-text-muted);
+  user-select: none;
+}
+
+.wa-ticks {
+  display: inline-flex;
+  align-items: center;
+}
+
+.wa-ticks svg {
+  display: block;
+}
+
+.wa-ticks path {
+  fill: var(--srm-navy);
+}
+
+/* ==========================================================================
+   Typing Indicator Bubble
+   ========================================================================== */
+.niaa-typing {
+  display: none;
+  align-self: flex-start;
+  max-width: 80px;
+  margin-top: 2px;
+}
+
+.niaa-typing.active {
+  display: flex;
+}
+
+.niaa-typing-dots {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--srm-incoming);
+  padding: 8px 12px;
+  border-radius: 8px;
+  border-top-left-radius: 0;
+  position: relative;
+  box-shadow: var(--srm-shadow);
+  border: 1px solid var(--srm-border);
+}
+
+.niaa-typing-dots::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -8px;
+  width: 0;
+  height: 0;
+  border-top: 0px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-right: 8px solid var(--srm-incoming);
+}
+
+.niaa-typing-dots span {
+  width: 6px;
+  height: 6px;
+  background: var(--srm-navy);
+  border-radius: 50%;
+  animation: srmTypingBounce 1.4s infinite ease-in-out both;
+}
+
+.niaa-typing-dots span:nth-child(1) { animation-delay: -0.32s; }
+.niaa-typing-dots span:nth-child(2) { animation-delay: -0.16s; }
+
+@keyframes srmTypingBounce {
+  0%, 80%, 100% { transform: scale(0); opacity: 0.35; }
+  40% { transform: scale(1); opacity: 1; }
+}
+
+/* ==========================================================================
+   Quick Replies / Interactive Topic Buttons
+   ========================================================================== */
+.niaa-quick-replies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 8px 12px 10px 12px;
+  background: var(--srm-chat-bg);
+  border-top: 1px solid var(--srm-border);
+  max-height: 110px;
+  overflow-y: auto;
+  flex-shrink: 0;
+}
+
+.niaa-quick-reply {
+  padding: 5px 12px;
+  background: #ffffff;
+  border: 1px solid var(--srm-navy);
+  border-radius: 16px;
+  color: var(--srm-navy);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.16s ease;
+  white-space: nowrap;
+  box-shadow: 0 1px 2px rgba(12, 77, 162, 0.06);
+}
+
+.niaa-quick-reply:hover {
+  background: var(--srm-navy);
+  color: #ffffff;
+  border-color: var(--srm-navy);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(12, 77, 162, 0.25);
+}
+
+/* ==========================================================================
+   Chat Input Bar
+   ========================================================================== */
+.niaa-chat-input-container {
+  padding: 8px 12px;
+  background: var(--srm-chat-bg);
+  border-top: 1px solid var(--srm-border);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.niaa-chat-input {
+  flex: 1;
+  padding: 9px 15px;
+  border: 1px solid var(--srm-border-dark);
+  border-radius: 20px;
+  font-size: 13.5px;
+  outline: none;
+  background: #ffffff;
+  color: var(--srm-text-primary);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.niaa-chat-input:focus {
+  border-color: var(--srm-navy);
+  box-shadow: 0 0 0 3px rgba(12, 77, 162, 0.12);
+}
+
+.niaa-chat-input::placeholder {
+  color: #8696a0;
+}
+
+.niaa-chat-send {
+  width: 38px;
+  height: 38px;
+  border: none;
+  background: var(--srm-navy);
+  border-radius: 50%;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+  outline: none;
+  box-shadow: 0 2px 8px rgba(12, 77, 162, 0.35);
+}
+
+.niaa-chat-send:hover {
+  background: var(--srm-navy-dark);
+  transform: scale(1.05);
+}
+
+.niaa-chat-send:active {
+  transform: scale(0.95);
+}
+
+/* Footer */
+.niaa-powered-by {
+  text-align: center;
+  padding: 5px;
+  font-size: 10px;
+  color: var(--srm-text-muted);
+  background: var(--srm-panel-bg);
+  border-top: 1px solid var(--srm-border);
+  flex-shrink: 0;
+}
+
+.niaa-powered-by a {
+  color: var(--srm-navy);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Autofill Highlight on SRM Trichy Web Form */
+.mozhi-autofilled {
+  border-color: var(--srm-navy) !important;
+  background-color: #f0f6ff !important;
+  box-shadow: 0 0 0 3px rgba(12, 77, 162, 0.2) !important;
+  transition: all 0.4s ease !important;
+}
+
+.mozhi-autofill-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  padding: 6px 14px;
+  background: var(--srm-navy);
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 12px;
+  border-radius: 16px;
+  text-decoration: none !important;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgba(12, 77, 162, 0.25);
+  transition: transform 0.2s, background 0.2s;
+}
+
+.mozhi-autofill-action-btn:hover {
+  transform: translateY(-1px);
+  background: var(--srm-navy-dark);
+}
+
+/* External Multi-Language Switcher (Bottom-Left) */
+.srm-ta-toggle {
+  position: fixed;
+  left: 20px;
+  bottom: 24px;
+  z-index: 2147483000;
+  background: var(--srm-navy);
+  color: #ffffff;
+  border: 1.5px solid var(--srm-gold);
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(12, 77, 162, 0.35);
+  transition: all 0.22s ease;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.srm-ta-toggle:hover {
+  transform: translateY(-2px);
+  background: var(--srm-navy-dark);
+  border-color: var(--srm-gold);
+  box-shadow: 0 10px 24px rgba(12, 77, 162, 0.48);
+}
+
+/* ==========================================================================
+   FAQ & Active Learning Drawer Styling
+   ========================================================================== */
+.niaa-train-btn {
+  background: linear-gradient(135deg, #fef3c7, #fde68a);
+  border: 1px solid #f59e0b;
+  color: #78350f;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.niaa-train-btn:hover {
+  background: #fbbf24;
+  color: #451a03;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(245, 158, 11, 0.35);
+}
+
+.niaa-training-drawer {
+  background: #ffffff;
+  border-bottom: 2px solid var(--srm-navy);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  max-height: 380px;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  animation: srmDrawerSlideDown 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes srmDrawerSlideDown {
+  from { opacity: 0; transform: translateY(-12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.niaa-drawer-tabs {
+  display: flex;
+  background: #f1f5f9;
+  border-bottom: 1px solid var(--srm-border);
+  padding: 4px 6px 0 6px;
+  gap: 4px;
+  align-items: center;
+}
+
+.niaa-tab-btn {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 6px 10px;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--srm-text-secondary);
+  cursor: pointer;
+  border-radius: 6px 6px 0 0;
+  transition: all 0.18s ease;
+}
+
+.niaa-tab-btn:hover {
+  color: var(--srm-navy);
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.niaa-tab-btn.active {
+  color: var(--srm-navy);
+  background: #ffffff;
+  border-bottom-color: var(--srm-navy);
+  font-weight: 700;
+}
+
+.niaa-drawer-close {
+  margin-left: auto;
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #64748b;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.niaa-drawer-close:hover {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.niaa-drawer-body {
+  padding: 10px 12px;
+  overflow-y: auto;
+  flex: 1;
+  background: #f8fafc;
+}
+
+.niaa-tab-pane {
+  display: none;
+}
+
+.niaa-tab-pane.active {
+  display: block;
+}
+
+/* FAQ Search & Cards */
+.niaa-faq-search-box input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 7px 10px;
+  font-size: 12px;
+  border: 1px solid var(--srm-border-dark);
+  border-radius: 6px;
+  margin-bottom: 8px;
+  outline: none;
+}
+
+.niaa-faq-search-box input:focus {
+  border-color: var(--srm-navy);
+  box-shadow: 0 0 0 2px rgba(12, 77, 162, 0.15);
+}
+
+.niaa-faq-card {
+  background: #ffffff;
+  border: 1px solid var(--srm-border);
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.niaa-faq-card:hover {
+  border-color: var(--srm-navy);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+}
+
+.niaa-faq-card-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--srm-navy);
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.niaa-faq-card-badge {
+  font-size: 9.5px;
+  font-weight: 600;
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 1px 6px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.niaa-faq-card-preview {
+  font-size: 11px;
+  color: #475569;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Teach AI Form */
+.niaa-teach-form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.niaa-teach-form label {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--srm-text-primary);
+}
+
+.niaa-teach-form input,
+.niaa-teach-form textarea,
+.niaa-teach-form select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 7px 9px;
+  font-size: 11.5px;
+  border: 1px solid var(--srm-border-dark);
+  border-radius: 6px;
+  font-family: inherit;
+  outline: none;
+}
+
+.niaa-teach-form input:focus,
+.niaa-teach-form textarea:focus,
+.niaa-teach-form select:focus {
+  border-color: var(--srm-navy);
+}
+
+.niaa-teach-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.niaa-teach-row select {
+  flex: 1;
+}
+
+.niaa-teach-submit-btn {
+  background: var(--srm-navy);
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 7px 14px;
+  font-size: 11.5px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.18s ease;
+  white-space: nowrap;
+}
+
+.niaa-teach-submit-btn:hover {
+  background: var(--srm-navy-dark);
+}
+
+.niaa-teach-status {
+  font-size: 11px;
+  padding: 4px 6px;
+  border-radius: 4px;
+  display: none;
+}
+
+.niaa-teach-status.success {
+  display: block;
+  background: #dcfce7;
+  color: #166534;
+  border: 1px solid #86efac;
+}
+
+.niaa-teach-status.error {
+  display: block;
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
+}
+
+/* Learned Questions List */
+.niaa-learned-intro {
+  font-size: 11px;
+  color: #64748b;
+  margin-bottom: 8px;
+}
+
+.niaa-learned-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-left: 3px solid #f59e0b;
+  border-radius: 6px;
+  padding: 7px 9px;
+  margin-bottom: 6px;
+}
+
+.niaa-learned-card-q {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 2px;
+}
+
+.niaa-learned-card-meta {
+  font-size: 10px;
+  color: #64748b;
+  display: flex;
+  gap: 8px;
+}
+
+/* Source & Badges inside Messages */
+.wa-badge-trained {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fcd34d;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 10px;
+  margin-bottom: 6px;
+}
+
+.wa-badge-learned {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  background: #f3e8ff;
+  color: #6b21a8;
+  border: 1px solid #d8b4fe;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 10px;
+  margin-bottom: 6px;
+}
+
+.wa-badge-rag {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  background: #e0f2fe;
+  color: #0369a1;
+  border: 1px solid #bae6fd;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 10px;
+  margin-bottom: 6px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 480px) {
+  .niaa-chat-window {
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    bottom: 0;
+    right: 0;
+    border-radius: 0;
+    border: none;
+  }
+
+  .niaa-chat-widget {
+    bottom: 14px;
+    right: 14px;
+  }
+
+  .srm-ta-toggle {
+    left: 14px;
+    bottom: 14px;
+    padding: 7px 12px;
+    font-size: 11.5px;
+  }
+}

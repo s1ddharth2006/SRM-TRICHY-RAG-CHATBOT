@@ -1,0 +1,178 @@
+[
+  {
+    "orderId": 1,
+    "_id": "6a1e51e163fcd9156878054c",
+    "schoolId": "6a1017b5d609878e709ec0e0",
+    "name": "Division of Mathematics",
+    "slug": "maths",
+    "about": "Established in 2021, the Department of Mathematics at SRM Institute of Science and Technology, Tiruchirappalli, serves as a cornerstone of academic excellence, logical reasoning, and analytical innovation across engineering, technology, and science disciplines. The department brings together a vibrant team of highly accomplished faculty members actively engaged in cutting-edge research across diverse pure and applied domains, including Analysis & Differential Equations, Mathematical Finance and Inverse Problems, Fuzzy Set Theory & Graph Theory, Mathematical Modelling & Optimization, and Queueing Theory & Stochastic Processes. Driven by a commitment to interdisciplinary integration, the department empowers students to translate abstract mathematical principles into actionable solutions for complex socio-economic, technological, and real-world industrial challenges. By fostering critical thinking and problem-solving rigor, the Department of Mathematics prepares future engineers, scientists, and industry leaders to innovate and excel in an increasingly data-driven global ecosystem.",
+    "createdAt": "2026-06-02T03:45:37.527Z",
+    "updatedAt": "2026-09-25T11:42:19.445Z",
+    "__v": 0
+  },
+  {
+    "orderId": 1,
+    "_id": "6a1e718fb1479ae525d31ff0",
+    "schoolId": "6a1017b5d609878e709ec0e0",
+    "name": "Division of Physics ",
+    "slug": "physics",
+    "about": "The Physics Department in our SRM Institute of Science and Technology, Tiruchirappalli Campus serves as a cornerstone for developing a strong scientific foundation among students across all branches of engineering. With a team of highly qualified faculty members, laboratories, and a commitment to fostering innovation, the department integrates fundamental physics principles with practical applications relevant to modern technology and engineering challenges. Through a well-structured curriculum, cutting-edge research opportunities, and hands-on experiments, students gain critical analytical and problem-solving skills essential for their professional growth. The department also encourages interdisciplinary collaborations, enabling students to apply physics concepts in emerging areas such as Photonics, Quantum Optics, Energy storage devices, Material Science, Nanomaterials, Plasma, and Quantum information processing. With a thriving research community, the department is well-positioned to contribute significantly to high impact research publications and patents.",
+    "createdAt": "2026-06-02T06:00:47.980Z",
+    "updatedAt": "2026-06-02T06:00:47.980Z",
+    "__v": 0
+  },
+  {
+    "orderId": 1,
+    "_id": "6a1e71bcb1479ae525d31ff1",
+    "schoolId": "6a1017b5d609878e709ec0e0",
+    "name": "Division ﻿of Chemistry",
+    "slug": "chemistry",
+    "about": "The Division of Chemistry was established in September 2021 and has emerged as a hub for academic excellence. The division is guided by a team of dedicated faculty members, each of whom has successfully completed their Ph.D. programs, the department has swiftly transformed into a nucleus for pioneering research, publications, and impactful events. As the Division of Chemistry continues to chart new territories in the realm of scientific inquiry, its faculty members remain steadfast in their commitment to excellence, innovation, and scholarly pursuits. Through their dedication to research, mentorship, and academic engagement, they embody the spirit of discovery that defines the department's ethos. With a vibrant community of scholars, the department is poised to make significant contributions to the field of chemistry and inspire future generations of scientists.\n\nThe diverse research interests of our faculty members span into various subfields of chemistry such as Supramolecular Chemistry, Sensors, Solar Cells, Polymer Chemistry, Computational, Bio-Inorganic chemistry, Photophysical Studies of Biomolecules & Nanomaterials for energy, bio-medical and environmental applications. Each faculty member, driven by a passion for discovery, plays a pivotal role in shaping the academic landscape of the chemistry division. They have obtained guideship and mentor research scholars. Their dedication for advancing the frontiers of knowledge is reflected in their impressive publications of research articles in peer-reviewed journals, book chapters, and books. These contributions demonstrate the commitment of the division of Chemistry to push the boundaries of science.",
+    "createdAt": "2026-06-02T06:01:32.243Z",
+    "updatedAt": "2026-06-02T06:01:32.243Z",
+    "__v": 0
+  },
+  {
+    "orderId": 1,
+    "_id": "6a338aab928718b9911e7417",
+    "schoolId": "6a1fb098b75d271bec423cc9",
+    "name": "Bio-Technology",
+    "slug": "bio-tech",
+    "about": "Department of Biotechnology, School of Biosciences and Technology, SRMIST Tiruchirappalli\n\nThe Department of Biotechnology under the School of Biosciences and Technology, SRMIST Tiruchirappalli, offers application-oriented biotechnology education with emphasis on microbiology, molecular biology, biochemistry, immunology, cell biology, plant biotechnology, animal biotechnology, bioinformatics, diagnostics, environmental biotechnology and bioprocess fundamentals. The department focuses on concept clarity, laboratory learning, student mentoring, research exposure, hospital-linked opportunities, industry interaction and responsible innovation. Faculty activities include expert talks, workshops, outreach, publications, research proposals, professional training and academic service. The department prepares students for biotechnology industries, diagnostics, clinical research, pharmaceutical and agricultural biotechnology, higher studies and entrepreneurship.\n",
+    "createdAt": "2026-06-18T06:05:31.976Z",
+    "updatedAt": "2026-06-25T06:27:53.784Z",
+    "__v": 0
+  },
+  {
+    "orderId": 1,
+    "_id": "6a339610928718b9911e741c",
+    "schoolId": "6a1fb098b75d271bec423cc9",
+    "name": "Food Technology",
+    "slug": "food-tech",
+    "about": "In a world facing unprecedented population growth and climate volatility, the scope of Food Technology extends far beyond simple processing. It is the critical bridge between agricultural production and human health. Our department recognizes Food Technologists as the architects of global health—professionals who engineer functional foods, ensure the highest standards of safety, and optimize the nutritional value of what the world eats. The food industry remains one of the largest and most resilient economic sectors globally. Our department is committed to meeting this immense industry capacity by producing skilled professionals who are ready to lead in multinational corporations, reputed research & development facilities, and entrepreneurial ventures. Throughout their studies, students are exposed to a wide range of opportunities including international workshops, industry-led internships, and intensive in-plant training in modern pilot plants. Our curriculum is meticulously designed to merge the fundamental principles of Biological Sciences with Advanced Engineering, preparing students to address the complex challenges of the 21st-century food supply chain.",
+    "createdAt": "2026-06-18T06:54:08.502Z",
+    "updatedAt": "2026-06-18T06:54:08.502Z",
+    "__v": 0
+  },
+  {
+    "orderId": 1,
+    "_id": "6a339efd5760e079eed0a136",
+    "schoolId": "6a101749d609878e709ec0de",
+    "name": "Electrical and Electronics Engineering",
+    "slug": "EEE",
+    "about": "The Department of Electrical and Electronics Engineering (EEE) at SRM Institute of Science and Technology, Tiruchirappalli, is committed to excellence in engineering education, research, and innovation. The department provides a strong foundation in electrical engineering, power systems, power electronics, electrical machines, control systems, and emerging technologies, offering interdisciplinary learning opportunities aligned with evolving industry requirements. With a strong emphasis on academic rigor, practical learning, and industry collaboration, EEE provides state-of-the-art laboratories, experienced faculty, and a vibrant research ecosystem. The department actively promotes innovation in areas such as renewable energy, smart grids, electric vehicles, power electronics, electrical machines, control systems, energy storage, automation, and sustainable energy technologies. EEE strives to nurture technically competent, ethically responsible, and globally competitive professionals who can address real-world challenges and contribute significantly to technological advancement and societal development through lifelong learning and innovation.",
+    "createdAt": "2026-06-18T07:32:13.108Z",
+    "updatedAt": "2026-08-18T07:00:40.767Z",
+    "__v": 0
+  },
+  {
+    "orderId": 1,
+    "_id": "6a33c73e5760e079eed0a14f",
+    "schoolId": "6a101749d609878e709ec0de",
+    "name": "Electronics and Communication Engineering",
+    "slug": "ECE",
+    "about": "The Department of Electronics and Communication Engineering (ECE) at SRM Institute of Science and Technology, Tiruchirappalli, is committed to excellence in engineering education, research, and innovation. The department provides a strong foundation in electronics, communication engineering, embedded systems, signal processing, and emerging technologies, offering interdisciplinary learning opportunities aligned with evolving industry requirements. With a strong emphasis on academic rigor, practical learning, and industry collaboration, ECE provides state-of-the-art laboratories, experienced faculty, and a vibrant research ecosystem. The department actively promotes innovation in areas such as communication systems, embedded systems, Internet of Things, artificial intelligence, signal processing, VLSI, wireless networks, microwave engineering, and semiconductor technologies. ECE strives to nurture technically competent, ethically responsible, and globally competitive professionals who can address real-world challenges and contribute significantly to technological advancement and societal development through lifelong learning and innovation.\n",
+    "createdAt": "2026-06-18T10:23:58.541Z",
+    "updatedAt": "2026-08-18T07:03:19.763Z",
+    "__v": 0
+  },
+  {
+    "orderId": 1,
+    "_id": "6a840377f4ac01444242e0fc",
+    "schoolId": "6a101749d609878e709ec0de",
+    "name": "Electronics and Communication Engineering with Data Science",
+    "slug": "ECE-DS",
+    "about": "The Department of Electronics and Communication Engineering with Data Science (ECE-DS) at SRM Institute of Science and Technology, Tiruchirappalli, is committed to excellence in engineering education, research, and innovation. The department integrates electronics and communication engineering with data science, artificial intelligence, machine learning, and emerging digital technologies, offering interdisciplinary learning opportunities aligned with evolving industry requirements. With a strong emphasis on academic rigor, practical learning, and industry collaboration, ECE-DS provides state-of-the-art laboratories, experienced faculty, and a vibrant research ecosystem. The department actively promotes innovation in areas such as communication systems, embedded systems, Internet of Things, artificial intelligence, data analytics, machine learning, VLSI, wireless networks, and semiconductor technologies. ECE-DS strives to nurture technically competent, ethically responsible, and globally competitive professionals who can address real-world challenges and contribute significantly to technological advancement and societal development through lifelong learning and innovation.",
+    "createdAt": "2026-08-18T07:02:15.449Z",
+    "updatedAt": "2026-08-18T07:04:21.246Z",
+    "__v": 0
+  },
+  {
+    "orderId": 1,
+    "_id": "6a84039ff4ac01444242e0fe",
+    "schoolId": "6a101749d609878e709ec0de",
+    "name": "Biomedical Engineering",
+    "slug": "BME",
+    "about": "The Department of Biomedical Engineering at SRM Institute of Science and Technology (SRM IST), Tiruchirappalli, is committed to excellence in biomedical engineering education, research, and innovation. The department integrates engineering principles with biological sciences and healthcare applications to develop technically competent professionals capable of addressing contemporary challenges in healthcare and medical technology. With a strong emphasis on academic rigor, practical learning, interdisciplinary collaboration, and industry engagement, the department provides students with exposure to modern laboratories, biomedical instrumentation, healthcare technologies, and research-driven learning. The department actively promotes innovation in areas such as biomedical instrumentation, biosignal processing, medical imaging, rehabilitation engineering, medical devices, and emerging healthcare technologies. Through a vibrant academic and research environment, the Department of Biomedical Engineering strives to nurture ethically responsible, innovative, and globally competitive professionals who can contribute meaningfully to advancements in healthcare, technology, and society.",
+    "createdAt": "2026-08-18T07:02:55.776Z",
+    "updatedAt": "2026-08-18T07:04:46.370Z",
+    "__v": 0
+  },
+  {
+    "orderId": 1,
+    "_id": "6acc7633b2e749ee7ba98e0a",
+    "schoolId": "6a0c50c54cb3b437aeb8d764",
+    "name": "Department of Artificial Intelligence",
+    "slug": "department-of-artificial-intelligence",
+    "about": "The Department of Artificial Intelligence, School of Computing, SRM Institute of Science and Technology, aspires to develop skilled and innovative AI professionals equipped to address real-world challenges and contribute to technological advancement.\nThe Department provides strong expertise in Artificial Intelligence, Machine Learning, Deep Learning, Data Science, Computer Vision, and Natural Language Processing through a project-based and hands-on learning approach.\nThe Department is committed to providing students with a world-class education in Artificial Intelligence, preparing them for successful careers in this rapidly evolving field. It offers a strong foundation in AI while encouraging students to explore emerging technologies, research, innovation, and industry-oriented applications\n",
+    "createdAt": "2026-10-12T05:54:59.645Z",
+    "updatedAt": "2026-10-12T05:54:59.645Z",
+    "__v": 0
+  },
+  {
+    "_id": "6acc7c63b2e749ee7bb0f892",
+    "schoolId": "6a0c50c54cb3b437aeb8d764",
+    "name": "Department of Artificial Intelligence and Machine Learning",
+    "slug": "department-of-artificial-intelligence-and-machine-learning",
+    "about": "The Department of Computer Science and Engineering with specialization in Artificial Intelligence and Machine Learning educates more than 1,000 undergraduate and postgraduate students to design, build and deploy intelligent systems. It pairs strong computing foundations with industry-mentored projects, active research and close personal mentoring.\nThe department is part of the School of Computing at SRM Institute of Science and Technology, Tiruchirappalli, a campus of the NAAC A++ accredited SRMIST. Its students come from Tamil Nadu, Andhra Pradesh, Telangana and other states; nearly half are from outside Tamil Nadu, and about one in three is a woman. Over 90% of the faculty hold a Ph.D., and their work spans computer vision, medical imaging, natural language processing, edge AI and intelligent IoT systems.\n",
+    "createdAt": "2026-10-12T06:21:23.679Z",
+    "updatedAt": "2026-10-13T09:27:14.320Z",
+    "__v": 0,
+    "orderId": 2
+  },
+  {
+    "_id": "6acc7547b2e749ee7ba98e03",
+    "schoolId": "6a0c50c54cb3b437aeb8d764",
+    "name": "Department of Big Data Analytics and Data Science",
+    "slug": "department-of-big-data-analytics-and-data-science",
+    "about": "In a world where every digital interaction generates data and every connected system contributes to an ever-expanding information landscape, the ability to analyse, interpret, and harness data has become a driving force for innovation and informed decision-making. The Department of Big Data Analytics and Data Science brings together the foundations of Computer Science, the analytical power of Data Science, and the capabilities of Big Data technologies to prepare students to transform vast and complex datasets into meaningful insights, intelligent solutions, and real-world impact.\n\nThe department focuses on developing students’ abilities to understand data, identify patterns, uncover hidden opportunities, and address complex challenges through data-driven thinking. The learning environment integrates data science, statistical analysis, machine learning, data management, Big Data technologies, data visualisation, cloud-based analytics, and intelligent systems. Students gain exposure to the complete data lifecycle, from collecting and processing information to analysing large-scale datasets, communicating insights effectively, and applying analytical outcomes to practical challenges.\n\nThe curriculum encourages exploration across diverse domains, including business, healthcare, finance, the Internet of Things (IoT), intelligent systems, and emerging technology applications. Students are also encouraged to understand how data moves through interconnected systems, how large-scale information can support strategic decisions, and how analytical technologies can create value for organisations and society. Through hands-on learning, projects, internships, research, and industry-oriented initiatives, they develop the technical expertise, analytical mindset, critical thinking, and problem-solving abilities required to address evolving technological challenges.\n\nWith dedicated faculty, a dynamic learning environment, and a strong emphasis on innovation, research, and continuous learning, the department strives to nurture a new generation of data scientists, Big Data professionals, technology innovators, and responsible problem solvers who can transform data into knowledge, knowledge into actionable intelligence, and intelligence into meaningful impact across an increasingly data-driven world.",
+    "createdAt": "2026-10-12T05:51:03.437Z",
+    "updatedAt": "2026-10-13T09:28:12.945Z",
+    "__v": 0,
+    "orderId": 3
+  },
+  {
+    "_id": "6acc74f5b2e749ee7ba98e01",
+    "schoolId": "6a0c50c54cb3b437aeb8d764",
+    "name": "Department of Computer Science and Business Systems",
+    "slug": "department-of-computer-science-and-business-systems",
+    "about": "The Department of Computer Science and Business Systems (CSBS) at SRM Institute of Science and Technology, Tiruchirappalli, integrates computing expertise with business understanding, analytics, digital transformation, and technology-enabled decision-making. The department prepares students to bridge the gap between technical teams and business stakeholders in organizations increasingly driven by software, data, automation, cloud platforms, artificial intelligence, and digital products.\nCSBS develops students who can analyze business needs, interpret data, design technology solutions, communicate with multidisciplinary stakeholders, and contribute to the successful implementation of digital systems. The programme supports careers that require both technical depth and business awareness, including business analytics, product roles, technology consulting, enterprise systems, digital operations, and data-driven decision support. \nThe learning approach blends computer science foundations with management, economics, analytics, communication, software development, business processes, digital strategy, and project-based learning\n",
+    "createdAt": "2026-10-12T05:49:41.012Z",
+    "updatedAt": "2026-10-12T08:51:46.533Z",
+    "__v": 0,
+    "orderId": 4
+  },
+  {
+    "_id": "6acc7331b2e749ee7ba96371",
+    "schoolId": "6a0c50c54cb3b437aeb8d764",
+    "name": "Department of Computer Science and Engineering",
+    "slug": "department-of-computer-science-and-engineering",
+    "about": "The Department of Computer Science and Engineering at SRM Institute of Science and Technology, Tiruchirappalli Campus started in the year 2021. \nThe objective of this department is to provide students with the knowledge and skills they need to succeed in the rapidly evolving world of technology includes Cyber Physical System, Artificial Intelligence, Networking, Systems Engineering, Machine and Deep Learning, Data Science, Cyber Security and other relevant fields of Engineering and Technology. The Department success lies in honing the life long, self-learning skills of the students to enable the students to pace up with the rapidly evolving technological advancements. The Department offers wide range of branch- specific Electives, Open Electives, Industrial Electives, Minor Courses and Value added Courses to better transform the students from campus to corporate. \n",
+    "createdAt": "2026-10-12T05:42:09.894Z",
+    "updatedAt": "2026-10-12T08:51:54.859Z",
+    "__v": 0,
+    "orderId": 5
+  },
+  {
+    "_id": "6acc75c7b2e749ee7ba98e06",
+    "schoolId": "6a0c50c54cb3b437aeb8d764",
+    "name": "Department of Cyber security",
+    "slug": "department-of-cyber-security",
+    "about": "The Department of Computer Science and Engineering with Specialization in Cyber security at SRM Institute of Science and Technology, Tiruchirappalli Campus, is committed to providing quality technical education, fostering research and innovation, and developing industry-ready professionals capable of addressing the rapidly evolving challenges of the digital world. The department strives to create a dynamic academic environment that integrates theoretical foundations, practical expertise, emerging technologies, and professional ethics.\nThe department offers a comprehensive undergraduate learning experience combining the fundamental principles of Computer Science and Engineering with specialized knowledge in Cyber security, Network Security, Ethical Hacking, Cryptography, Digital Forensics, Cloud Computing, Artificial Intelligence, Machine Learning, and Internet of Things (IoT) Security. Through outcome-based education, innovative teaching methodologies, and experiential learning practices, students are encouraged to develop analytical thinking, technical proficiency, creativity, and problem-solving capabilities.\nThe department is supported by  highly qualified faculty members, all holding Ph.D. degrees, with expertise in Cyber security, Networking, Cloud Computing, Distributed Systems, Artificial Intelligence, Machine Learning, and interdisciplinary computing applications. Faculty members actively contribute to scholarly publications, patent initiatives, research supervision, technical training, and professional development activities. The department's research-oriented academic environment promotes collaborative learning, knowledge creation, and technological advancement.\nA distinguishing strength of the department is its emphasis on industry-integrated education and practical skill development. Industry engagement with organizations such as Fortinet and Cisco provides opportunities to strengthen practical knowledge and professional competencies. The department's Fortinet industry laboratory resources, including FortiGate, FortiAnalyzer, FortiManager, and FortiSIEM, support learning in network security, threat monitoring, security analysis, and security operations. Industry-supported activities help bridge the gap between academic learning and real-world technological requirements.\nThe department actively promotes student engagement through its technical clubs, along with professional platforms such as ACM and IEEE student chapters. These initiatives encourage participation in Capture the Flag (CTF) competitions, ethical hacking challenges, cybersecurity awareness programmes, technical workshops, peer learning, and collaborative problem-solving activities.\nWith a strong commitment to academic excellence, industry exposure, innovation, and professional ethics, the department aims to nurture technically competent, socially responsible, and globally competitive engineers capable of contributing to the development of a secure and resilient digital ecosystem\n",
+    "createdAt": "2026-10-12T05:53:11.391Z",
+    "updatedAt": "2026-10-13T09:32:59.319Z",
+    "__v": 0,
+    "orderId": 6
+  },
+  {
+    "_id": "6acc7601b2e749ee7ba98e08",
+    "schoolId": "6a0c50c54cb3b437aeb8d764",
+    "name": "Department of Information Technology",
+    "slug": "department-of-information-technology",
+    "about": "The Department of Information Technology at SRM Institute of Science and Technology, Tiruchirappalli, is committed to providing high-quality education in computing and information technology while fostering innovation, research, entrepreneurship and professional excellence.\nThe Department functions within the School of Computing, which offers a broad portfolio of computing programmes including Computer Science and Engineering, Artificial Intelligence, Artificial Intelligence and Machine Learning, Cyber Security, Blockchain Technology, Internet of Things, Data Science, Computer Science and Business Systems, and Information Technology. The School's academic framework emphasizes fundamental computing disciplines such as algorithms, data structures, operating systems, computer networks, database systems, software engineering, distributed systems and cloud architectures. \nThe Department of Information Technology focuses on preparing students to design, develop, deploy and manage technology solutions for real-world problems. The learning environment combines theoretical foundations with practical implementation, enabling students to understand not only how technologies work, but also how they can be integrated to solve complex organizational and societal challenges.\nThe programme is designed around the evolving landscape of information technology and provides students with opportunities to explore software development, databases, networking, cloud computing, artificial intelligence, machine learning, cybersecurity, mobile technologies, web technologies and emerging digital platforms",
+    "createdAt": "2026-10-12T05:54:09.034Z",
+    "updatedAt": "2026-10-12T08:53:55.911Z",
+    "__v": 0,
+    "orderId": 7
+  }
+]

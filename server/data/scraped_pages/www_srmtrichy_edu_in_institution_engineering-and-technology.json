@@ -1,0 +1,19 @@
+{
+  "url": "https://www.srmtrichy.edu.in/institution/engineering-and-technology",
+  "route": "/institution/engineering-and-technology",
+  "title": "Faculty of Engineering & Technology (FET) | SRM IST Trichy",
+  "category": "academics_engineering",
+  "status": 200,
+  "contentLength": 2270,
+  "text": "FACULTY OF ENGINEERING AND TECHNOLOGY (FET) - SRM IST TRICHY:\nAssociate Dean: Dr. Balasundaram R (Professor & Associate Dean, 30+ Years Experience in Mechanical & Tech Education).\nAccreditation: NAAC A++, Category-1 Deemed University, AICTE approved.\n\nPROGRAMMES OFFERED:\n1. Under Graduate (B.Tech - 4 Years):\n   • B.Tech Computer Science and Engineering (CSE)\n   • B.Tech CSE with Specialization in Artificial Intelligence and Machine Learning (AI & ML)\n   • B.Tech CSE with Specialization in Cyber Security\n   • B.Tech CSE with Specialization in Data Sciences\n   • B.Tech CSE with Specialization in Blockchain Technology\n   • B.Tech CSE with Specialization in Internet of Things (IoT)\n   • B.Tech CSE with Specialization in Medical Engineering\n   • B.Tech Artificial Intelligence and Data Science (AI & DS)\n   • B.Tech Information Technology (IT)\n   • B.Tech Computer Science and Business Systems (CSBS - in partnership with TCS)\n   • B.Tech Software Product Engineering\n   • B.Tech Electronics and Communication Engineering (ECE)\n   • B.Tech ECE with Specialization in Data Science\n   • B.Tech Electrical and Electronics Engineering (EEE)\n   • B.Tech Biomedical Engineering (BME)\n   • B.Tech Biotechnology with Specialization in Food Technology\n   • B.Tech Mechanical Engineering\n2. Post Graduate (M.Tech - 2 Years):\n   • M.Tech Computer Science and Engineering (AI & ML)\n   • M.Tech Embedded System and VLSI Design\n3. Doctoral Research (Ph.D. - Full Time / Part Time 3–6 Years):\n   • Ph.D. in CSE, AI, Cyber Security, Renewable Energy, Electric Vehicles, Power Electronics, VLSI, Wireless Networks, Signal Processing.\n\nSTATE-OF-THE-ART RESEARCH LABORATORIES & COEs:\n• Apple iMac Centre of Excellence: Dedicated Xcode & Swift iOS development laboratory with high-performance Apple iMac workstations.\n• AR/VR Immersive Lab: Meta Quest headsets, spatial computing hardware, and 3D modeling engines for virtual reality simulations.\n• Fortinet Cyber Security Lab: Powered by FortiGate Enterprise firewalls and FortiSIEM threat analytics for live Security Operations Center (SOC) drills.\n• Cisco Networking Academy: Hardware routers, switches, and packet tracer testing environments.\n• NVIDIA GPU Computing Lab: High-end tensor cores for deep learning and LLM fine-tuning.",
+  "hyperlinks": [
+    "https://www.srmtrichy.edu.in/departments/cse",
+    "https://www.srmtrichy.edu.in/departments/ai-ds",
+    "https://www.srmtrichy.edu.in/departments/cyber-security",
+    "https://www.srmtrichy.edu.in/departments/it",
+    "https://www.srmtrichy.edu.in/departments/ece",
+    "https://www.srmtrichy.edu.in/departments/mechanical",
+    "https://www.srmtrichy.edu.in/departments/bio-tech"
+  ],
+  "scrapedAt": "2026-10-20T11:06:31.848Z"
+}

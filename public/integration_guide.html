@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SRM IST Trichy AI Chatbot - Universal Integration & Training Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy-900: #071220;
+      --navy-800: #0b1e36;
+      --navy-700: #122b4d;
+      --navy-600: #1b3d6b;
+      --gold-500: #c49a45;
+      --gold-400: #dfb256;
+      --gold-glow: rgba(196, 154, 69, 0.25);
+      --text-100: #f8fafc;
+      --text-300: #cbd5e1;
+      --text-500: #94a3b8;
+      --card-bg: rgba(15, 34, 56, 0.75);
+      --card-border: rgba(196, 154, 69, 0.2);
+      --accent-green: #10b981;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--navy-900);
+      color: var(--text-100);
+      line-height: 1.6;
+      min-height: 100vh;
+      background-image: 
+        radial-gradient(circle at 10% 15%, rgba(196, 154, 69, 0.08) 0%, transparent 45%),
+        radial-gradient(circle at 90% 85%, rgba(27, 61, 107, 0.35) 0%, transparent 50%);
+    }
+
+    /* Top Navigation */
+    nav {
+      padding: 1.2rem 2.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--card-border);
+      background: rgba(7, 18, 32, 0.85);
+      backdrop-filter: blur(16px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .brand-logo {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--gold-500), #967026);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      color: var(--navy-900);
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.1rem;
+      box-shadow: 0 4px 12px rgba(196, 154, 69, 0.4);
+    }
+
+    .brand-text h2 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .brand-text p {
+      font-size: 0.75rem;
+      color: var(--gold-500);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      color: var(--accent-green);
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 5px 12px;
+      border-radius: 20px;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent-green);
+      box-shadow: 0 0 8px var(--accent-green);
+      animation: pulseDot 2s infinite;
+    }
+
+    @keyframes pulseDot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.85); }
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 4.5rem 1.5rem 3rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .hero-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px;
+      border-radius: 999px;
+      background: rgba(196, 154, 69, 0.12);
+      border: 1px solid var(--card-border);
+      color: var(--gold-500);
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 3.2rem;
+      font-weight: 800;
+      line-height: 1.15;
+      background: linear-gradient(135deg, #ffffff 40%, var(--gold-400) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 1.2rem;
+    }
+
+    .hero-desc {
+      font-size: 1.2rem;
+      color: var(--text-300);
+      max-width: 760px;
+      margin: 0 auto 2.5rem;
+    }
+
+    /* Live Metrics Grid */
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 1.2rem;
+      max-width: 1140px;
+      margin: 0 auto 3.5rem;
+      padding: 0 1.5rem;
+    }
+
+    .metric-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      backdrop-filter: blur(12px);
+      transition: all 0.25s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .metric-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--gold-500);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), 0 0 20px var(--gold-glow);
+    }
+
+    .metric-value {
+      font-family: 'Outfit', sans-serif;
+      font-size: 2.6rem;
+      font-weight: 800;
+      color: var(--gold-500);
+      line-height: 1;
+      margin-bottom: 0.4rem;
+    }
+
+    .metric-label {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text-100);
+      margin-bottom: 0.2rem;
+    }
+
+    .metric-sub {
+      font-size: 0.8rem;
+      color: var(--text-500);
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 1.5rem 5rem;
+      display: grid;
+      gap: 3rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 2.5rem;
+      backdrop-filter: blur(16px);
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .card-title-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    h2 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    /* Tabs */
+    .tab-nav {
+      display: flex;
+      gap: 8px;
+      background: rgba(7, 18, 32, 0.6);
+      padding: 6px;
+      border-radius: 12px;
+      border: 1px solid var(--card-border);
+      overflow-x: auto;
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-500);
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+
+    .tab-btn:hover {
+      color: #fff;
+    }
+
+    .tab-btn.active {
+      background: var(--gold-500);
+      color: var(--navy-900);
+      font-weight: 700;
+    }
+
+    .tab-content {
+      display: none;
+      margin-top: 1.5rem;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    /* Code Block */
+    .code-container {
+      position: relative;
+      background: #030810;
+      border: 1px solid rgba(196, 154, 69, 0.25);
+      border-radius: 12px;
+      padding: 1.5rem;
+      overflow-x: auto;
+    }
+
+    pre code {
+      font-family: 'Fira Code', monospace;
+      font-size: 0.92rem;
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+
+    .copy-btn {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      background: var(--navy-700);
+      border: 1px solid var(--gold-500);
+      color: var(--gold-400);
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .copy-btn:hover {
+      background: var(--gold-500);
+      color: var(--navy-900);
+    }
+
+    /* Configurator Form */
+    .config-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--gold-500);
+      margin-bottom: 0.4rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .form-control {
+      width: 100%;
+      background: rgba(7, 18, 32, 0.8);
+      border: 1px solid var(--card-border);
+      color: #fff;
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-size: 0.95rem;
+      outline: none;
+      transition: border-color 0.2s ease;
+    }
+
+    .form-control:focus {
+      border-color: var(--gold-500);
+      box-shadow: 0 0 12px var(--gold-glow);
+    }
+
+    /* Features List */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .feature-item {
+      display: flex;
+      gap: 14px;
+      background: rgba(7, 18, 32, 0.5);
+      border: 1px solid rgba(196, 154, 69, 0.15);
+      padding: 1.2rem;
+      border-radius: 14px;
+    }
+
+    .feature-icon {
+      font-size: 1.5rem;
+      line-height: 1;
+    }
+
+    .feature-info h4 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.3rem;
+    }
+
+    .feature-info p {
+      font-size: 0.85rem;
+      color: var(--text-500);
+      line-height: 1.5;
+    }
+
+    /* Toast Notification */
+    #toast {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: linear-gradient(135deg, var(--gold-500), #a37b2d);
+      color: var(--navy-900);
+      font-weight: 700;
+      padding: 12px 24px;
+      border-radius: 30px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+      font-size: 0.9rem;
+      opacity: 0;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      z-index: 10000000;
+    }
+
+    #toast.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 2.3rem; }
+      nav { padding: 1rem 1.2rem; }
+      .card { padding: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <nav>
+    <a href="/" class="brand">
+      <div class="brand-logo">SRM</div>
+      <div class="brand-text">
+        <h2>SRM IST Tiruchirappalli</h2>
+        <p>Official AI Chatbot Integration Suite</p>
+      </div>
+    </a>
+    <div class="nav-actions">
+      <div class="status-badge">
+        <span class="status-dot"></span>
+        AI RAG Engine Active
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <div class="hero-pill">⚡ Universal 1-Line Integration</div>
+    <h1>Embed the SRM AI Chatbot on Your Main Website</h1>
+    <p class="hero-desc">
+      Trained exhaustively on 100% of <strong>srmtrichy.edu.in</strong>, including all 34 routes, CMS databases, application portals, and 19 official PDF prospectuses with high-dimensional vector retrieval.
+    </p>
+  </header>
+
+  <!-- Live System Knowledge Metrics -->
+  <section class="metrics-grid">
+    <div class="metric-card">
+      <div class="metric-value">37</div>
+      <div class="metric-label">Scraped Web Pages</div>
+      <div class="metric-sub">All routes, portals & links indexed</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-value">19</div>
+      <div class="metric-label">Official Knowledge PDFs</div>
+      <div class="metric-sub">Prospectuses & handbooks parsed</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-value">141</div>
+      <div class="metric-label">Vector Embeddings</div>
+      <div class="metric-sub">384-dimensional semantic space</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-value">123</div>
+      <div class="metric-label">Learned Questions</div>
+      <div class="metric-sub">Continuous Active Learning memory</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-value">72</div>
+      <div class="metric-label">Trained FAQs</div>
+      <div class="metric-sub">Instant bilingual query matcher</div>
+    </div>
+  </section>
+
+  <main class="container">
+
+    <!-- Section 1: Live Interactive Configurator -->
+    <section class="card">
+      <div class="card-title-row">
+        <h2>⚙️ Custom Embed Code Generator</h2>
+        <span style="color: var(--text-500); font-size: 0.85rem;">Customize settings & copy the generated code</span>
+      </div>
+
+      <div class="config-grid">
+        <div class="form-group">
+          <label>Widget Backend API URL</label>
+          <input type="text" id="cfg-api" class="form-control" value="http://localhost:3000">
+        </div>
+        <div class="form-group">
+          <label>Default Language</label>
+          <select id="cfg-lang" class="form-control">
+            <option value="ta" selected>Tamil (தமிழ் - Default)</option>
+            <option value="en">English (EN)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Screen Position</label>
+          <select id="cfg-pos" class="form-control">
+            <option value="right" selected>Bottom Right (Standard)</option>
+            <option value="left">Bottom Left</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Widget Header Title</label>
+          <input type="text" id="cfg-title" class="form-control" value="SRM IST Trichy AI">
+        </div>
+      </div>
+
+      <div class="code-container">
+        <button class="copy-btn" id="copy-btn" onclick="copySnippet()">📋 Copy Code Snippet</button>
+        <pre><code id="generated-snippet">&lt;!-- SRM IST Trichy Universal AI Chatbot Embed --&gt;
+&lt;script 
+  src="http://localhost:3000/embed.js" 
+  data-api="http://localhost:3000" 
+  data-lang="ta" 
+  data-position="right" 
+  data-title="SRM IST Trichy AI" 
+  defer&gt;
+&lt;/script&gt;</code></pre>
+      </div>
+    </section>
+
+    <!-- Section 2: Integration by Platform -->
+    <section class="card">
+      <h2>🚀 Integration by Platform</h2>
+      <p style="color: var(--text-500); margin-top: 0.3rem;">Choose your website stack below to see the quick copy-paste instructions:</p>
+
+      <div class="tab-nav" style="margin-top: 1.5rem;">
+        <button class="tab-btn active" onclick="switchTab('html')">Static HTML / PHP</button>
+        <button class="tab-btn" onclick="switchTab('wordpress')">WordPress</button>
+        <button class="tab-btn" onclick="switchTab('react')">React / Next.js</button>
+        <button class="tab-btn" onclick="switchTab('webflow')">Webflow / Wix</button>
+      </div>
+
+      <!-- Tab: HTML -->
+      <div id="tab-html" class="tab-content active">
+        <p style="color: var(--text-300); margin-bottom: 1rem;">Paste this 1-line script right before the closing <code>&lt;/body&gt;</code> tag on any HTML or PHP template:</p>
+        <div class="code-container">
+          <pre><code>&lt;!-- Place right before &lt;/body&gt; in your index.html or footer.php --&gt;
+&lt;script src="https://your-chatbot-server.com/embed.js" data-api="https://your-chatbot-server.com" defer&gt;&lt;/script&gt;</code></pre>
+        </div>
+      </div>
+
+      <!-- Tab: WordPress -->
+      <div id="tab-wordpress" class="tab-content">
+        <p style="color: var(--text-300); margin-bottom: 1rem;">In your WordPress Admin Dashboard, choose either method:</p>
+        <ol style="color: var(--text-300); margin-left: 1.5rem; margin-bottom: 1rem;">
+          <li>Go to <strong>Appearance → Theme File Editor → footer.php</strong>.</li>
+          <li>Paste the script tag directly above <code>&lt;?php wp_footer(); ?&gt;</code>.</li>
+          <li>Or use a plugin like <em>"WPCode - Insert Headers and Footers"</em> and add the snippet into the Footer Scripts section.</li>
+        </ol>
+        <div class="code-container">
+          <pre><code>&lt;script src="https://your-chatbot-server.com/embed.js" data-api="https://your-chatbot-server.com" defer&gt;&lt;/script&gt;</code></pre>
+        </div>
+      </div>
+
+      <!-- Tab: React / Next.js -->
+      <div id="tab-react" class="tab-content">
+        <p style="color: var(--text-300); margin-bottom: 1rem;">In Next.js (App Router or Pages Router), add via <code>next/script</code> in your root layout:</p>
+        <div class="code-container">
+          <pre><code>import Script from 'next/script';
+
+export default function RootLayout({ children }) {
+  return (
+    &lt;html lang="ta"&gt;
+      &lt;body&gt;
+        {children}
+        &lt;Script 
+          src="https://your-chatbot-server.com/embed.js" 
+          data-api="https://your-chatbot-server.com"
+          strategy="lazyOnload" 
+        /&gt;
+      &lt;/body&gt;
+    &lt;/html&gt;
+  );
+}</code></pre>
+        </div>
+      </div>
+
+      <!-- Tab: Webflow -->
+      <div id="tab-webflow" class="tab-content">
+        <p style="color: var(--text-300); margin-bottom: 1rem;">In Webflow Project Settings:</p>
+        <ol style="color: var(--text-300); margin-left: 1.5rem; margin-bottom: 1rem;">
+          <li>Go to <strong>Project Settings → Custom Code</strong>.</li>
+          <li>Paste into the <strong>Footer Code</strong> box (Before <code>&lt;/body&gt;</code> tag).</li>
+          <li>Click <strong>Save & Publish</strong>.</li>
+        </ol>
+        <div class="code-container">
+          <pre><code>&lt;script src="https://your-chatbot-server.com/embed.js" data-api="https://your-chatbot-server.com" defer&gt;&lt;/script&gt;</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Chatbot Capabilities & Features -->
+    <section class="card">
+      <h2>✨ Embedded Chatbot Features</h2>
+      <div class="features-grid">
+        <div class="feature-item">
+          <div class="feature-icon">🌐</div>
+          <div class="feature-info">
+            <h4>Bilingual Tamil & English</h4>
+            <p>Instant language toggle (தமிழ் ⇄ EN) supporting authentic Tamil script and clear English responses.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">📄</div>
+          <div class="feature-info">
+            <h4>Verified Document Citations</h4>
+            <p>Every response is grounded in official prospectuses and includes direct clickable source links to PDF pages.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">⚡</div>
+          <div class="feature-info">
+            <h4>Zero Configuration</h4>
+            <p>Self-injects isolated CSS styles that never conflict with your host website's Bootstrap or Tailwind classes.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">📱</div>
+          <div class="feature-info">
+            <h4>Mobile Drawer Mode</h4>
+            <p>Seamlessly adapts to mobile screens with a full-screen drawer and accessible thumb-friendly buttons.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🧠</div>
+          <div class="feature-info">
+            <h4>Continuous Active Learning</h4>
+            <p>Automatically records and verifies new student queries into the learned knowledge memory.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🎯</div>
+          <div class="feature-info">
+            <h4>Lead Generation</h4>
+            <p>Captures interested student names, emails, and phone numbers for follow-up counseling.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="toast">Snippet Copied to Clipboard! 📋</div>
+
+  <!-- Include embed.js on this page so the user can test the real chatbot! -->
+  <script src="/embed.js" data-api="" data-lang="ta" data-position="right" defer></script>
+
+  <script>
+    function updateCodeSnippet() {
+      const api = document.getElementById('cfg-api').value.trim() || 'http://localhost:3000';
+      const lang = document.getElementById('cfg-lang').value;
+      const pos = document.getElementById('cfg-pos').value;
+      const title = document.getElementById('cfg-title').value.trim() || 'SRM IST Trichy AI';
+
+      const snippet = `<!-- SRM IST Trichy Universal AI Chatbot Embed -->
+<script 
+  src="${api}/embed.js" 
+  data-api="${api}" 
+  data-lang="${lang}" 
+  data-position="${pos}" 
+  data-title="${title}" 
+  defer>
+<\/script>`;
+
+      document.getElementById('generated-snippet').textContent = snippet;
+    }
+
+    document.getElementById('cfg-api').addEventListener('input', updateCodeSnippet);
+    document.getElementById('cfg-lang').addEventListener('change', updateCodeSnippet);
+    document.getElementById('cfg-pos').addEventListener('change', updateCodeSnippet);
+    document.getElementById('cfg-title').addEventListener('input', updateCodeSnippet);
+
+    function copySnippet() {
+      const text = document.getElementById('generated-snippet').textContent;
+      navigator.clipboard.writeText(text).then(() => {
+        const toast = document.getElementById('toast');
+        toast.classList.add('show');
+        setTimeout(() => toast.classList.remove('show'), 2500);
+      });
+    }
+
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+      event.target.classList.add('active');
+      document.getElementById('tab-' + tabId).classList.add('active');
+    }
+
+    // Auto-detect current host for configurator API input
+    if (window.location.origin) {
+      document.getElementById('cfg-api').value = window.location.origin;
+      updateCodeSnippet();
+    }
+  </script>
+</body>
+</html>

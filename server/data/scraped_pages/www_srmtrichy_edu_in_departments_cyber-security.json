@@ -1,0 +1,14 @@
+{
+  "url": "https://www.srmtrichy.edu.in/departments/cyber-security",
+  "route": "/departments/cyber-security",
+  "title": "Department of Cyber Security | SRM IST Trichy",
+  "category": "departments",
+  "status": 200,
+  "contentLength": 814,
+  "text": "DEPARTMENT OF CYBER SECURITY - SRM IST TRICHY:\nHead of the Department: Dr. R. Deebalakshmi (Associate Professor & HoD, Cyber Security).\nSpecialization: B.Tech CSE (Cyber Security) & Doctoral Research.\n\nLABORATORY & INDUSTRY INFRASTRUCTURE:\n• Fortinet Centre of Excellence: Industry-certified cyber defense lab featuring FortiGate Next-Generation Firewalls and FortiSIEM threat intelligence systems.\n• Cisco Security Academy: Hands-on intrusion detection (IDS/IPS), network protocol analysis, and ethical hacking suites.\n• Capture The Flag (CTF) Arena: Dedicated student-led cybersecurity team competing in national CTF contests, vulnerability disclosure, and ethical hacking.\n• Career Pathways: Information Security Analyst, Penetration Tester, SOC Engineer, Digital Forensics Specialist, Cloud Security Architect.",
+  "hyperlinks": [
+    "https://www.srmtrichy.edu.in/departments/cse",
+    "https://www.srmtrichy.edu.in/institution/engineering-and-technology"
+  ],
+  "scrapedAt": "2026-10-20T11:06:31.849Z"
+}

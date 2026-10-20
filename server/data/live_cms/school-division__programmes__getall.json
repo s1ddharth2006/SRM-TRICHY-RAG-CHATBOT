@@ -1,0 +1,716 @@
+[
+  {
+    "hidden": false,
+    "orderId": 1,
+    "_id": "6a339c055760e079eed0a135",
+    "schoolDivisionId": {
+      "orderId": 1,
+      "_id": "6a339610928718b9911e741c",
+      "schoolId": "6a1fb098b75d271bec423cc9",
+      "name": "Food Technology",
+      "slug": "food-tech",
+      "about": "In a world facing unprecedented population growth and climate volatility, the scope of Food Technology extends far beyond simple processing. It is the critical bridge between agricultural production and human health. Our department recognizes Food Technologists as the architects of global health—professionals who engineer functional foods, ensure the highest standards of safety, and optimize the nutritional value of what the world eats. The food industry remains one of the largest and most resilient economic sectors globally. Our department is committed to meeting this immense industry capacity by producing skilled professionals who are ready to lead in multinational corporations, reputed research & development facilities, and entrepreneurial ventures. Throughout their studies, students are exposed to a wide range of opportunities including international workshops, industry-led internships, and intensive in-plant training in modern pilot plants. Our curriculum is meticulously designed to merge the fundamental principles of Biological Sciences with Advanced Engineering, preparing students to address the complex challenges of the 21st-century food supply chain.",
+      "createdAt": "2026-06-18T06:54:08.502Z",
+      "updatedAt": "2026-06-18T06:54:08.502Z",
+      "__v": 0
+    },
+    "name": "B. Tech. – Biotechnology with Specialization in Food Technology Bridging Science, Engineering, and Sustainability",
+    "shortName": "B.Tech Biotech & Food Tech",
+    "overview": "Biotechnology with a Specialization in Food Technology is an interdisciplinary undergraduate program that merges biological sciences and engineering principles to improve the safety, quality, nutritional value, and sustainability of food systems. This specialized curriculum equips students with a deep knowledge of molecular biology, bioprocessing, protein engineering, food chemistry, and plant & animal biotechnology, alongside advanced engineering practices such as food processing, biotransformation, preservation, and packaging.\n\nWith food security, functional foods, and alternative protein sources becoming critical focus areas for global sustainability, this engineering branch acts as the next evolutionary step in food production systems. Modern technological advancements allow students to learn how to minimize food waste, optimize supply chains, and manufacture functional food products using automated and biotechnological solutions. From engineering fortified nutrition to managing global agricultural supply pipelines, biotechnology paired with food technology plays an indispensable role in public health, commercial food manufacturing, quality control, and regulatory affairs.\n",
+    "duration": "4 Years",
+    "eligibility": "(a) Nationality and Age: Resident Indian or Non-Resident Indian (NRI), holder of PIO or OCI card issued by the Government of India are eligible to apply for SRMJEEE (UG). Note: NRIs, holders of PIO or OCI card issued by Government of India who have not taken the SRMJEEE (UG) must apply under the International student category only. Should have attained the age of 16 years and 6 months on the 31st July of the calendar year in which the 12th Board examination is to be held.\n\n(b) Qualifying Examination: Minimum 60% aggregate in PCM / PCB.\n\n(i) Passed in Higher Secondary examination (10+2 pattern) or appearing in Higher Secondary examination in the current academic year with Physics and Mathematics/Biology as compulsory subjects along with one of Chemistry/ Biotechnology/ Technical Vocational subject/ Computer Science/ Information Technology. Note: Students who have completed +2 under NIOS must have completed the 10th standard from regular schooling or vice-versa.  \n\n(ii) GCE A-level or International Baccalaureate (IB) diploma or IB certificate with Physics and Mathematics/Biology as compulsory subjects along with one of Chemistry/ Biotechnology/ Technical Vocational subject/ Computer Science/ Information Technology.  \n\n(c) SRMJEEE (UG): Candidates who have attempted Physics, Chemistry, Mathematics/Biology, English & Aptitude in SRMJEEE (UG) are eligible for all B.Tech. Degree Programs.\n\n(d) Direct Admission: To encourage and support students of exemplary talent, SRM Institute of Science and Technology offers direct admission and scholarships to first-rank students of all the central and state boards in India, top 10,000 rankers in IIT JEE, and top rankers in each district of Tamil Nadu.\n",
+    "careerPath": [
+      "Food Process / Bioprocess Engineer",
+      "New Product Development (NPD) Executive",
+      "Production Operations ExecutiveFood Safety Officer / Regulatory Affairs Executive",
+      "Quality Control (QC) / Quality Assurance (QA) Analyst"
+    ],
+    "createdAt": "2026-06-18T07:19:33.141Z",
+    "updatedAt": "2026-06-18T07:19:33.141Z",
+    "__v": 0
+  },
+  {
+    "hidden": false,
+    "orderId": 1,
+    "_id": "6a840859f4ac01444242e115",
+    "schoolDivisionId": {
+      "orderId": 1,
+      "_id": "6a339efd5760e079eed0a136",
+      "schoolId": "6a101749d609878e709ec0de",
+      "name": "Electrical and Electronics Engineering",
+      "slug": "EEE",
+      "about": "The Department of Electrical and Electronics Engineering (EEE) at SRM Institute of Science and Technology, Tiruchirappalli, is committed to excellence in engineering education, research, and innovation. The department provides a strong foundation in electrical engineering, power systems, power electronics, electrical machines, control systems, and emerging technologies, offering interdisciplinary learning opportunities aligned with evolving industry requirements. With a strong emphasis on academic rigor, practical learning, and industry collaboration, EEE provides state-of-the-art laboratories, experienced faculty, and a vibrant research ecosystem. The department actively promotes innovation in areas such as renewable energy, smart grids, electric vehicles, power electronics, electrical machines, control systems, energy storage, automation, and sustainable energy technologies. EEE strives to nurture technically competent, ethically responsible, and globally competitive professionals who can address real-world challenges and contribute significantly to technological advancement and societal development through lifelong learning and innovation.",
+      "createdAt": "2026-06-18T07:32:13.108Z",
+      "updatedAt": "2026-08-18T07:00:40.767Z",
+      "__v": 0
+    },
+    "name": "B.Tech. Electrical and Electronics Engineering",
+    "shortName": "B.Tech EEE",
+    "overview": "Provides strong foundations in electrical systems, power electronics, renewable energy, automation, and smart grids through practical learning and projects.",
+    "duration": "4 Years",
+    "eligibility": "10+2 with Physics, Chemistry, and Mathematics, along with a valid entrance examination score as per institute guidelines.",
+    "careerPath": [
+      "Power Systems Engineer",
+      "Control Systems Engineer",
+      "Electrical Design Engineer",
+      "Renewable Energy Engineer"
+    ],
+    "createdAt": "2026-08-18T07:23:05.440Z",
+    "updatedAt": "2026-08-18T07:23:05.440Z",
+    "__v": 0
+  },
+  {
+    "hidden": false,
+    "orderId": 1,
+    "_id": "6a8408e1f4ac01444242e117",
+    "schoolDivisionId": {
+      "orderId": 1,
+      "_id": "6a339efd5760e079eed0a136",
+      "schoolId": "6a101749d609878e709ec0de",
+      "name": "Electrical and Electronics Engineering",
+      "slug": "EEE",
+      "about": "The Department of Electrical and Electronics Engineering (EEE) at SRM Institute of Science and Technology, Tiruchirappalli, is committed to excellence in engineering education, research, and innovation. The department provides a strong foundation in electrical engineering, power systems, power electronics, electrical machines, control systems, and emerging technologies, offering interdisciplinary learning opportunities aligned with evolving industry requirements. With a strong emphasis on academic rigor, practical learning, and industry collaboration, EEE provides state-of-the-art laboratories, experienced faculty, and a vibrant research ecosystem. The department actively promotes innovation in areas such as renewable energy, smart grids, electric vehicles, power electronics, electrical machines, control systems, energy storage, automation, and sustainable energy technologies. EEE strives to nurture technically competent, ethically responsible, and globally competitive professionals who can address real-world challenges and contribute significantly to technological advancement and societal development through lifelong learning and innovation.",
+      "createdAt": "2026-06-18T07:32:13.108Z",
+      "updatedAt": "2026-08-18T07:00:40.767Z",
+      "__v": 0
+    },
+    "name": "Ph.D. in Renewable Energy",
+    "shortName": "Ph.D. (RE)",
+    "overview": "Focuses on sustainable energy research, including solar, wind, hybrid systems, smart grids, energy storage, and efficient power management.",
+    "duration": "3-5 Years",
+    "eligibility": "Master’s degree in EEE/ECE or related disciplines with a valid entrance test/interview as per institute norms.",
+    "careerPath": [
+      "Renewable Energy Researcher",
+      "Energy Systems Engineer",
+      "Academician"
+    ],
+    "createdAt": "2026-08-18T07:25:21.754Z",
+    "updatedAt": "2026-08-18T07:25:21.754Z",
+    "__v": 0
+  },
+  {
+    "hidden": false,
+    "orderId": 1,
+    "_id": "6a84093ff4ac01444242e119",
+    "schoolDivisionId": {
+      "orderId": 1,
+      "_id": "6a339efd5760e079eed0a136",
+      "schoolId": "6a101749d609878e709ec0de",
+      "name": "Electrical and Electronics Engineering",
+      "slug": "EEE",
+      "about": "The Department of Electrical and Electronics Engineering (EEE) at SRM Institute of Science and Technology, Tiruchirappalli, is committed to excellence in engineering education, research, and innovation. The department provides a strong foundation in electrical engineering, power systems, power electronics, electrical machines, control systems, and emerging technologies, offering interdisciplinary learning opportunities aligned with evolving industry requirements. With a strong emphasis on academic rigor, practical learning, and industry collaboration, EEE provides state-of-the-art laboratories, experienced faculty, and a vibrant research ecosystem. The department actively promotes innovation in areas such as renewable energy, smart grids, electric vehicles, power electronics, electrical machines, control systems, energy storage, automation, and sustainable energy technologies. EEE strives to nurture technically competent, ethically responsible, and globally competitive professionals who can address real-world challenges and contribute significantly to technological advancement and societal development through lifelong learning and innovation.",
+      "createdAt": "2026-06-18T07:32:13.108Z",
+      "updatedAt": "2026-08-18T07:00:40.767Z",
+      "__v": 0
+    },
+    "name": "Ph.D. in Electric Vehicles",
+    "shortName": "Ph.D. EV",
+    "overview": "Focuses on electric vehicle technologies, battery management, motor drives, charging infrastructure, energy optimization, and sustainable intelligent mobility solutions",
+    "duration": "3-5 Years",
+    "eligibility": "Master’s degree in EEE/ECE/Mechanical Engineering or related fields with qualifying entrance and interview as per institutional norms.",
+    "careerPath": [
+      "EV Research Scientist",
+      "Battery Systems Engineer",
+      "Automotive Engineer"
+    ],
+    "createdAt": "2026-08-18T07:26:55.701Z",
+    "updatedAt": "2026-08-18T07:26:55.701Z",
+    "__v": 0
+  },
+  {
+    "hidden": false,
+    "orderId": 1,
+    "_id": "6a840987f4ac01444242e11b",
+    "schoolDivisionId": {
+      "orderId": 1,
+      "_id": "6a339efd5760e079eed0a136",
+      "schoolId": "6a101749d609878e709ec0de",
+      "name": "Electrical and Electronics Engineering",
+      "slug": "EEE",
+      "about": "The Department of Electrical and Electronics Engineering (EEE) at SRM Institute of Science and Technology, Tiruchirappalli, is committed to excellence in engineering education, research, and innovation. The department provides a strong foundation in electrical engineering, power systems, power electronics, electrical machines, control systems, and emerging technologies, offering interdisciplinary learning opportunities aligned with evolving industry requirements. With a strong emphasis on academic rigor, practical learning, and industry collaboration, EEE provides state-of-the-art laboratories, experienced faculty, and a vibrant research ecosystem. The department actively promotes innovation in areas such as renewable energy, smart grids, electric vehicles, power electronics, electrical machines, control systems, energy storage, automation, and sustainable energy technologies. EEE strives to nurture technically competent, ethically responsible, and globally competitive professionals who can address real-world challenges and contribute significantly to technological advancement and societal development through lifelong learning and innovation.",
+      "createdAt": "2026-06-18T07:32:13.108Z",
+      "updatedAt": "2026-08-18T07:00:40.767Z",
+      "__v": 0
+    },
+    "name": "Ph.D. in Power Electronics",
+    "shortName": "Ph.D. PE",
+    "overview": "Focuses on power converters, motor drives, control techniques, renewable energy integration, electric vehicles, and high-efficiency power electronic systems.",
+    "duration": "3-5 Years",
+    "eligibility": "Master’s degree in EEE/ECE or related disciplines with a valid entrance test and interview as per institute norms.",
+    "careerPath": [
+      "Power Electronics Engineer",
+      "Research Scientist",
+      "Academician"
+    ],
+    "createdAt": "2026-08-18T07:28:07.421Z",
+    "updatedAt": "2026-08-18T07:28:07.421Z",
+    "__v": 0
+  },
+  {
+    "hidden": false,
+    "orderId": 1,
+    "_id": "6a8409f1f4ac01444242e11d",
+    "schoolDivisionId": {
+      "orderId": 1,
+      "_id": "6a840377f4ac01444242e0fc",
+      "schoolId": "6a101749d609878e709ec0de",
+      "name": "Electronics and Communication Engineering with Data Science",
+      "slug": "ECE-DS",
+      "about": "The Department of Electronics and Communication Engineering with Data Science (ECE-DS) at SRM Institute of Science and Technology, Tiruchirappalli, is committed to excellence in engineering education, research, and innovation. The department integrates electronics and communication engineering with data science, artificial intelligence, machine learning, and emerging digital technologies, offering interdisciplinary learning opportunities aligned with evolving industry requirements. With a strong emphasis on academic rigor, practical learning, and industry collaboration, ECE-DS provides state-of-the-art laboratories, experienced faculty, and a vibrant research ecosystem. The department actively promotes innovation in areas such as communication systems, embedded systems, Internet of Things, artificial intelligence, data analytics, machine learning, VLSI, wireless networks, and semiconductor technologies. ECE-DS strives to nurture technically competent, ethically responsible, and globally competitive professionals who can address real-world challenges and contribute significantly to technological advancement and societal development through lifelong learning and innovation.",
+      "createdAt": "2026-08-18T07:02:15.449Z",
+      "updatedAt": "2026-08-18T07:04:21.246Z",
+      "__v": 0
+    },
+    "name": "B.Tech - Electronics and Communication Engineering with specialization in Data Science",
+    "shortName": "B.Tech ECE DS",
+    "overview": "Provides strong foundations in electronics, communication, data science, artificial intelligence, machine learning, and intelligent systems through practical learning, projects, and industry exposure.",
+    "duration": "4 Years",
+    "eligibility": "10+2 or equivalent with Physics, Chemistry, and Mathematics as core subjects, along with a valid entrance examination score as per institute norums.",
+    "careerPath": [
+      "Data Scientist",
+      "Communication Engineer",
+      "Embedded Systems Engineer",
+      "AI/ML Engineer",
+      "Network Engineer"
+    ],
+    "createdAt": "2026-08-18T07:29:53.300Z",
+    "updatedAt": "2026-08-18T07:30:59.607Z",
+    "__v": 0
+  },
+  {
+    "hidden": false,
+    "orderId": 1,
+    "_id": "6a840a94f4ac01444242e120",
+    "schoolDivisionId": {
+      "orderId": 1,
+      "_id": "6a84039ff4ac01444242e0fe",
+      "schoolId": "6a101749d609878e709ec0de",
+      "name": "Biomedical Engineering",
+      "slug": "BME",
+      "about": "The Department of Biomedical Engineering at SRM Institute of Science and Technology (SRM IST), Tiruchirappalli, is committed to excellence in biomedical engineering education, research, and innovation. The department integrates engineering principles with biological sciences and healthcare applications to develop technically competent professionals capable of addressing contemporary challenges in healthcare and medical technology. With a strong emphasis on academic rigor, practical learning, interdisciplinary collaboration, and industry engagement, the department provides students with exposure to modern laboratories, biomedical instrumentation, healthcare technologies, and research-driven learning. The department actively promotes innovation in areas such as biomedical instrumentation, biosignal processing, medical imaging, rehabilitation engineering, medical devices, and emerging healthcare technologies. Through a vibrant academic and research environment, the Department of Biomedical Engineering strives to nurture ethically responsible, innovative, and globally competitive professionals who can contribute meaningfully to advancements in healthcare, technology, and society.",
+      "createdAt": "2026-08-18T07:02:55.776Z",
+      "updatedAt": "2026-08-18T07:04:46.370Z",
+      "__v": 0
+    },
+    "name": "B. Tech - Biomedical Engineering",
+    "shortName": "B.Tech BME",
+    "overview": "Provides strong foundations in biomedical engineering, biomedical instrumentation, healthcare technologies, biosignal processing, medical imaging, and clinical applications through practical learning, projects, and industry exposure.",
+    "duration": "4 Years",
+    "eligibility": "10+2 or equivalent with Physics, Chemistry, and Mathematics as core subjects, along with a valid entrance examination score as per institute norms.",
+    "careerPath": [
+      "Biomedical Engineer",
+      "Biomedical Instrumentation Engineer",
+      "Clinical/Healthcare Technology Engineer",
+      "Medical Imaging / Signal Processing Engineer",
+      "Medical Device / R&D Engineer"
+    ],
+    "createdAt": "2026-08-18T07:32:36.064Z",
+    "updatedAt": "2026-08-18T07:32:36.064Z",
+    "__v": 0
+  },
+  {
+    "hidden": false,
+    "orderId": 1,
+    "_id": "6a840aebf4ac01444242e122",
+    "schoolDivisionId": {
+      "orderId": 1,
+      "_id": "6a33c73e5760e079eed0a14f",
+      "schoolId": "6a101749d609878e709ec0de",
+      "name": "Electronics and Communication Engineering",
+      "slug": "ECE",
+      "about": "The Department of Electronics and Communication Engineering (ECE) at SRM Institute of Science and Technology, Tiruchirappalli, is committed to excellence in engineering education, research, and innovation. The department provides a strong foundation in electronics, communication engineering, embedded systems, signal processing, and emerging technologies, offering interdisciplinary learning opportunities aligned with evolving industry requirements. With a strong emphasis on academic rigor, practical learning, and industry collaboration, ECE provides state-of-the-art laboratories, experienced faculty, and a vibrant research ecosystem. The department actively promotes innovation in areas such as communication systems, embedded systems, Internet of Things, artificial intelligence, signal processing, VLSI, wireless networks, microwave engineering, and semiconductor technologies. ECE strives to nurture technically competent, ethically responsible, and globally competitive professionals who can address real-world challenges and contribute significantly to technological advancement and societal development through lifelong learning and innovation.\n",
+      "createdAt": "2026-06-18T10:23:58.541Z",
+      "updatedAt": "2026-08-18T07:03:19.763Z",
+      "__v": 0
+    },
+    "name": "B.Tech. Electronics and Communication Engineering",
+    "shortName": "B.Tech ECE",
+    "overview": "Provides strong foundations in electronics, communication, signal processing, VLSI, and embedded systems through practical learning, projects, and industry exposure.",
+    "duration": "4 Years",
+    "eligibility": "10+2 or equivalent with Physics, Chemistry, and Mathematics as core subjects, along with a valid entrance examination score as per institute norms.",
+    "careerPath": [
+      "Communication Engineer",
+      "Embedded Systems Engineer",
+      "VLSI Design Engineer",
+      "Network Engineer"
+    ],
+    "createdAt": "2026-08-18T07:34:03.277Z",
+    "updatedAt": "2026-08-18T07:34:03.277Z",
+    "__v": 0
+  },
+  {
+    "hidden": false,
+    "orderId": 1,
+    "_id": "6a840b45f4ac01444242e124",
+    "schoolDivisionId": {
+      "orderId": 1,
+      "_id": "6a33c73e5760e079eed0a14f",
+      "schoolId": "6a101749d609878e709ec0de",
+      "name": "Electronics and Communication Engineering",
+      "slug": "ECE",
+      "about": "The Department of Electronics and Communication Engineering (ECE) at SRM Institute of Science and Technology, Tiruchirappalli, is committed to excellence in engineering education, research, and innovation. The department provides a strong foundation in electronics, communication engineering, embedded systems, signal processing, and emerging technologies, offering interdisciplinary learning opportunities aligned with evolving industry requirements. With a strong emphasis on academic rigor, practical learning, and industry collaboration, ECE provides state-of-the-art laboratories, experienced faculty, and a vibrant research ecosystem. The department actively promotes innovation in areas such as communication systems, embedded systems, Internet of Things, artificial intelligence, signal processing, VLSI, wireless networks, microwave engineering, and semiconductor technologies. ECE strives to nurture technically competent, ethically responsible, and globally competitive professionals who can address real-world challenges and contribute significantly to technological advancement and societal development through lifelong learning and innovation.\n",
+      "createdAt": "2026-06-18T10:23:58.541Z",
+      "updatedAt": "2026-08-18T07:03:19.763Z",
+      "__v": 0
+    },
+    "name": "M.Tech Embedded System and VLSI Design",
+    "shortName": "M.Tech ES & VLSI",
+    "overview": "Focuses on embedded systems and VLSI design, covering ASIC/FPGA, SoC, and real-time systems through advanced laboratories and research",
+    "duration": "2 Years",
+    "eligibility": "Candidates must have a Bachelor’s degree in ECE/EEE or related disciplines with a valid qualifying score as per institute norms.",
+    "careerPath": [
+      "VLSI Design Engineer",
+      "Embedded Systems Engineer",
+      "FPGA Design Engineer",
+      "SoC Design Engineer",
+      "Hardware Design Engineer"
+    ],
+    "createdAt": "2026-08-18T07:35:33.612Z",
+    "updatedAt": "2026-08-18T07:35:44.992Z",
+    "__v": 0
+  },
+  {
+    "hidden": false,
+    "orderId": 1,
+    "_id": "6a840ba0f4ac01444242e127",
+    "schoolDivisionId": {
+      "orderId": 1,
+      "_id": "6a33c73e5760e079eed0a14f",
+      "schoolId": "6a101749d609878e709ec0de",
+      "name": "Electronics and Communication Engineering",
+      "slug": "ECE",
+      "about": "The Department of Electronics and Communication Engineering (ECE) at SRM Institute of Science and Technology, Tiruchirappalli, is committed to excellence in engineering education, research, and innovation. The department provides a strong foundation in electronics, communication engineering, embedded systems, signal processing, and emerging technologies, offering interdisciplinary learning opportunities aligned with evolving industry requirements. With a strong emphasis on academic rigor, practical learning, and industry collaboration, ECE provides state-of-the-art laboratories, experienced faculty, and a vibrant research ecosystem. The department actively promotes innovation in areas such as communication systems, embedded systems, Internet of Things, artificial intelligence, signal processing, VLSI, wireless networks, microwave engineering, and semiconductor technologies. ECE strives to nurture technically competent, ethically responsible, and globally competitive professionals who can address real-world challenges and contribute significantly to technological advancement and societal development through lifelong learning and innovation.\n",
+      "createdAt": "2026-06-18T10:23:58.541Z",
+      "updatedAt": "2026-08-18T07:03:19.763Z",
+      "__v": 0
+    },
+    "name": "Ph.D. in Analog and Digital VLSI",
+    "shortName": "Ph.D. A&D VLSI",
+    "overview": "Focuses on advanced analog and digital VLSI research, including low-power circuits, mixed-signal design, semiconductor devices, and SoC architectures.",
+    "duration": "3-5 Years",
+    "eligibility": "Master’s degree in ECE/EEE or related fields with a valid entrance test/interview as per institutional norms.",
+    "careerPath": [
+      "VLSI Research Scientist",
+      "IC Design Engineer",
+      "Academician"
+    ],
+    "createdAt": "2026-08-18T07:37:04.403Z",
+    "updatedAt": "2026-08-18T07:37:04.403Z",
+    "__v": 0
+  },
+  {
+    "hidden": false,
+    "orderId": 1,
+    "_id": "6a840bd3f4ac01444242e129",
+    "schoolDivisionId": {
+      "orderId": 1,
+      "_id": "6a33c73e5760e079eed0a14f",
+      "schoolId": "6a101749d609878e709ec0de",
+      "name": "Electronics and Communication Engineering",
+      "slug": "ECE",
+      "about": "The Department of Electronics and Communication Engineering (ECE) at SRM Institute of Science and Technology, Tiruchirappalli, is committed to excellence in engineering education, research, and innovation. The department provides a strong foundation in electronics, communication engineering, embedded systems, signal processing, and emerging technologies, offering interdisciplinary learning opportunities aligned with evolving industry requirements. With a strong emphasis on academic rigor, practical learning, and industry collaboration, ECE provides state-of-the-art laboratories, experienced faculty, and a vibrant research ecosystem. The department actively promotes innovation in areas such as communication systems, embedded systems, Internet of Things, artificial intelligence, signal processing, VLSI, wireless networks, microwave engineering, and semiconductor technologies. ECE strives to nurture technically competent, ethically responsible, and globally competitive professionals who can address real-world challenges and contribute significantly to technological advancement and societal development through lifelong learning and innovation.\n",
+      "createdAt": "2026-06-18T10:23:58.541Z",
+      "updatedAt": "2026-08-18T07:03:19.763Z",
+      "__v": 0
+    },
+    "name": "Ph.D. in Wireless Networks",
+    "shortName": "Ph.D. WN",
+    "overview": "Focuses on wireless communications, IoT, 5G/6G, network optimization, security, and energy-efficient protocols for next-generation connectivity research.",
+    "duration": "3-5 Years",
+    "eligibility": "Master’s degree in ECE/EEE/Computer Science or related fields with qualifying entrance and interview as per institute norms.",
+    "careerPath": [
+      "Wireless Communication Researcher",
+      "Network Architect",
+      "Academician"
+    ],
+    "createdAt": "2026-08-18T07:37:55.967Z",
+    "updatedAt": "2026-08-18T07:37:55.967Z",
+    "__v": 0
+  },
+  {
+    "hidden": false,
+    "orderId": 1,
+    "_id": "6a840c21f4ac01444242e12b",
+    "schoolDivisionId": {
+      "orderId": 1,
+      "_id": "6a33c73e5760e079eed0a14f",
+      "schoolId": "6a101749d609878e709ec0de",
+      "name": "Electronics and Communication Engineering",
+      "slug": "ECE",
+      "about": "The Department of Electronics and Communication Engineering (ECE) at SRM Institute of Science and Technology, Tiruchirappalli, is committed to excellence in engineering education, research, and innovation. The department provides a strong foundation in electronics, communication engineering, embedded systems, signal processing, and emerging technologies, offering interdisciplinary learning opportunities aligned with evolving industry requirements. With a strong emphasis on academic rigor, practical learning, and industry collaboration, ECE provides state-of-the-art laboratories, experienced faculty, and a vibrant research ecosystem. The department actively promotes innovation in areas such as communication systems, embedded systems, Internet of Things, artificial intelligence, signal processing, VLSI, wireless networks, microwave engineering, and semiconductor technologies. ECE strives to nurture technically competent, ethically responsible, and globally competitive professionals who can address real-world challenges and contribute significantly to technological advancement and societal development through lifelong learning and innovation.\n",
+      "createdAt": "2026-06-18T10:23:58.541Z",
+      "updatedAt": "2026-08-18T07:03:19.763Z",
+      "__v": 0
+    },
+    "name": "Ph.D. in Optical Communication & Nanophotonics",
+    "shortName": "Ph.D. OC & N",
+    "overview": "Focuses on optical communications, fiber optics, photonic devices, nanophotonics, optical signal processing, and high-speed communication technologies.",
+    "duration": "3-5 Years",
+    "eligibility": "Master’s degree in ECE/EEE/Physics or related disciplines with qualifying entrance and interview as per institutional norms.",
+    "careerPath": [
+      "Optical Engineer",
+      "Photonics Research Scientist",
+      "Academician"
+    ],
+    "createdAt": "2026-08-18T07:39:13.977Z",
+    "updatedAt": "2026-08-18T07:39:13.977Z",
+    "__v": 0
+  },
+  {
+    "hidden": false,
+    "orderId": 1,
+    "_id": "6a840c5cf4ac01444242e12d",
+    "schoolDivisionId": {
+      "orderId": 1,
+      "_id": "6a33c73e5760e079eed0a14f",
+      "schoolId": "6a101749d609878e709ec0de",
+      "name": "Electronics and Communication Engineering",
+      "slug": "ECE",
+      "about": "The Department of Electronics and Communication Engineering (ECE) at SRM Institute of Science and Technology, Tiruchirappalli, is committed to excellence in engineering education, research, and innovation. The department provides a strong foundation in electronics, communication engineering, embedded systems, signal processing, and emerging technologies, offering interdisciplinary learning opportunities aligned with evolving industry requirements. With a strong emphasis on academic rigor, practical learning, and industry collaboration, ECE provides state-of-the-art laboratories, experienced faculty, and a vibrant research ecosystem. The department actively promotes innovation in areas such as communication systems, embedded systems, Internet of Things, artificial intelligence, signal processing, VLSI, wireless networks, microwave engineering, and semiconductor technologies. ECE strives to nurture technically competent, ethically responsible, and globally competitive professionals who can address real-world challenges and contribute significantly to technological advancement and societal development through lifelong learning and innovation.\n",
+      "createdAt": "2026-06-18T10:23:58.541Z",
+      "updatedAt": "2026-08-18T07:03:19.763Z",
+      "__v": 0
+    },
+    "name": "Ph.D. in Signal and Image Processing",
+    "shortName": "Ph.D. S&IP",
+    "overview": "Focuses on signal processing, image analysis, computer vision, machine learning, speech processing, medical imaging, and pattern recognition research.",
+    "duration": "3-5 Years",
+    "eligibility": "Master’s degree in ECE/EEE/Computer Science or related fields with a valid entrance test and interview as per institute norms.",
+    "careerPath": [
+      "Signal Processing Engineer",
+      "Computer Vision Researcher",
+      "Academician"
+    ],
+    "createdAt": "2026-08-18T07:40:12.923Z",
+    "updatedAt": "2026-08-18T07:40:12.923Z",
+    "__v": 0
+  },
+  {
+    "hidden": false,
+    "_id": "6a3277d057dea087abf50aab",
+    "__v": 0,
+    "careerPath": [
+      "Software Developer / Engineer",
+      "Data Scientist / Data Analyst",
+      "System Analyst",
+      "Cloud Engineer"
+    ],
+    "createdAt": "2026-10-12T08:21:17.706Z",
+    "duration": "4 Years",
+    "eligibility": "(b)\tQualifying Examination: \nAll B.Tech programmes:\n\nMinimum 60% aggregate in PCM\n\n(i)\tPassed in Higher secondary examination (10+2 pattern ) or appearing in Higher Secondary examination in the current academic year with Physics and Mathematics as compulsory subjects along with one of the Chemistry/ Biotechnology/ Biology/ Technical Vocational subject/ Computer Science/ Information Technology/ Informatics Practices/ Agriculture/ Engineering Graphics/ Business Studies as major subjects in regular stream from any state board within India, CBSE, ISCE, Matriculation, or NIOS\n\nNote: Students who have completed +2 under NIOS must have completed the 10th standard from regular schooling or vice-versa. (source)\n\n(ii)\tGCE A-level or International Baccalaureate(IB) diploma or IB certificate with Physics and   Mathematics as compulsory subjects along with one of the Chemistry/ Biotechnology/ Biology/ Technical Vocational subject/ Computer Science/ Information Technology/ Informatics Practices/ Agriculture/ Engineering Graphics/ Business Studies as major subjects (equivalent to Advanced Placement level in each subject) in any International schools within India.\n(c)\tSRM JEE: Candidates who have attempted Physics, Chemistry, Mathematics, English & Aptitude in SRMJEEE(UG) are eligible for all the B.Tech Degree Programs.\n(d)\tDirect Admission:  To encourage and support students of exemplary talent, SRM Institute of Science and Technology (formerly known as SRM University) offers direct admission and scholarships to first rank students of all the central and state boards in India, top 10,000 rankers in IIT JEE, top rankers in each district of Tamil Nadu and exemplary sports persons at National and International level.\n",
+    "name": "B.Tech Computer Science and Engineering",
+    "orderId": 1,
+    "overview": "Computer Science and Engineering is a dynamic field that focuses on both the theoretical foundations and practical applications of computing, integrating principles of mathematics, engineering, software, and hardware. It has significantly transformed society over the past few decades and continues to drive innovation across industries such as banking, e-commerce, healthcare, finance, security, and logistics. With the rapid advancement of technology, the demand for skilled computer science professionals is steadily increasing, offering diverse career opportunities including roles such as System Engineer, Data Scientist, Software Developer, Analyst, and Researcher. Pursuing a degree in Computer Science and Engineering equips students with essential technical and problem-solving skills, making them highly sought after in the IT industry, while also providing strong pathways for higher education such as M.Tech, M.E., MBA, and other specialized programs.",
+    "schoolDivisionId": {
+      "_id": "6acc7331b2e749ee7ba96371",
+      "schoolId": "6a0c50c54cb3b437aeb8d764",
+      "name": "Department of Computer Science and Engineering",
+      "slug": "department-of-computer-science-and-engineering",
+      "about": "The Department of Computer Science and Engineering at SRM Institute of Science and Technology, Tiruchirappalli Campus started in the year 2021. \nThe objective of this department is to provide students with the knowledge and skills they need to succeed in the rapidly evolving world of technology includes Cyber Physical System, Artificial Intelligence, Networking, Systems Engineering, Machine and Deep Learning, Data Science, Cyber Security and other relevant fields of Engineering and Technology. The Department success lies in honing the life long, self-learning skills of the students to enable the students to pace up with the rapidly evolving technological advancements. The Department offers wide range of branch- specific Electives, Open Electives, Industrial Electives, Minor Courses and Value added Courses to better transform the students from campus to corporate. \n",
+      "createdAt": "2026-10-12T05:42:09.894Z",
+      "updatedAt": "2026-10-12T08:51:54.859Z",
+      "__v": 0,
+      "orderId": 5
+    },
+    "shortName": "B.Tech CSE",
+    "updatedAt": "2026-10-12T08:21:17.706Z"
+  },
+  {
+    "hidden": false,
+    "_id": "6a32817457dea087abf50ae9",
+    "__v": 0,
+    "careerPath": [
+      "Research Scientist",
+      "Software Architect",
+      "Machine Learning Engineer"
+    ],
+    "createdAt": "2026-10-12T08:21:45.015Z",
+    "duration": "2 Years",
+    "eligibility": "-",
+    "name": "M.Tech Computer Science and Engineering",
+    "orderId": 1,
+    "overview": "M.Tech in Computer Science and Engineering is a two-year post-graduate program designed for engineers working in various fields to enhance their knowledge and skills with the latest technology developments in Computer Science and Information Technology and related fields. This course offers advanced knowledge of core fundaments in Data Structures and Algorithms, Computer networking, Database systems, Computer System Architecture, Software Engineering and a wide range of optional subjects involving the latest technologies and tools. One full semester is set aside for doing quality project work, with a research focus. This enhances students’ knowledge and also makes them job-focused.",
+    "schoolDivisionId": {
+      "_id": "6acc7331b2e749ee7ba96371",
+      "schoolId": "6a0c50c54cb3b437aeb8d764",
+      "name": "Department of Computer Science and Engineering",
+      "slug": "department-of-computer-science-and-engineering",
+      "about": "The Department of Computer Science and Engineering at SRM Institute of Science and Technology, Tiruchirappalli Campus started in the year 2021. \nThe objective of this department is to provide students with the knowledge and skills they need to succeed in the rapidly evolving world of technology includes Cyber Physical System, Artificial Intelligence, Networking, Systems Engineering, Machine and Deep Learning, Data Science, Cyber Security and other relevant fields of Engineering and Technology. The Department success lies in honing the life long, self-learning skills of the students to enable the students to pace up with the rapidly evolving technological advancements. The Department offers wide range of branch- specific Electives, Open Electives, Industrial Electives, Minor Courses and Value added Courses to better transform the students from campus to corporate. \n",
+      "createdAt": "2026-10-12T05:42:09.894Z",
+      "updatedAt": "2026-10-12T08:51:54.859Z",
+      "__v": 0,
+      "orderId": 5
+    },
+    "shortName": "M.Tech CSE",
+    "updatedAt": "2026-10-12T08:21:45.015Z"
+  },
+  {
+    "hidden": false,
+    "_id": "6a327a4057dea087abf50adf",
+    "__v": 0,
+    "careerPath": [
+      "Cybersecurity Analyst",
+      "Ethical Hacker (Penetration Tester)",
+      "Security Engineer",
+      "Digital Forensics Analyst"
+    ],
+    "createdAt": "2026-10-12T08:22:08.175Z",
+    "duration": "4 Years",
+    "eligibility": "Qualifying Examination: \nAll B.Tech programmes:\n\nMinimum 60% aggregate in PCM\n\n(i)\tPassed in Higher secondary examination (10+2 pattern ) or appearing in Higher Secondary examination in the current academic year with Physics and Mathematics as compulsory subjects along with one of the Chemistry/ Biotechnology/ Biology/ Technical Vocational subject/ Computer Science/ Information Technology/ Informatics Practices/ Agriculture/ Engineering Graphics/ Business Studies as major subjects in regular stream from any state board within India, CBSE, ISCE, Matriculation, or NIOS\n\nNote: Students who have completed +2 under NIOS must have completed the 10th standard from regular schooling or vice-versa. (source)\n\n(ii)\tGCE A-level or International Baccalaureate(IB) diploma or IB certificate with Physics and   Mathematics as compulsory subjects along with one of the Chemistry/ Biotechnology/ Biology/ Technical Vocational subject/ Computer Science/ Information Technology/ Informatics Practices/ Agriculture/ Engineering Graphics/ Business Studies as major subjects (equivalent to Advanced Placement level in each subject) in any International schools within India.\n",
+    "name": "B.Tech Computer Science and Engineering with Specialization in Cyber Security",
+    "orderId": 1,
+    "overview": "In today’s digital age, where technology is transforming every aspect of our lives, the need for skilled professionals who can protect our online systems and networks from cyber threats has become paramount. Our program is designed to equip students with the knowledge and skills required to tackle the ever-evolving challenges of Cybersecurity. The B.Tech. program in Computer Science and Engineering with Specialization in Cybersecurity is a four-year undergraduate program aimed at providing students with a strong foundation in computer science principles while focusing on the specialized field of Cybersecurity. The curriculum has been carefully crafted to blend theoretical knowledge with practical skills, ensuring that students gain a deep understanding of the underlying concepts and are capable of applying them in real-world scenarios.",
+    "schoolDivisionId": {
+      "_id": "6acc75c7b2e749ee7ba98e06",
+      "schoolId": "6a0c50c54cb3b437aeb8d764",
+      "name": "Department of Cyber security",
+      "slug": "department-of-cyber-security",
+      "about": "The Department of Computer Science and Engineering with Specialization in Cyber security at SRM Institute of Science and Technology, Tiruchirappalli Campus, is committed to providing quality technical education, fostering research and innovation, and developing industry-ready professionals capable of addressing the rapidly evolving challenges of the digital world. The department strives to create a dynamic academic environment that integrates theoretical foundations, practical expertise, emerging technologies, and professional ethics.\nThe department offers a comprehensive undergraduate learning experience combining the fundamental principles of Computer Science and Engineering with specialized knowledge in Cyber security, Network Security, Ethical Hacking, Cryptography, Digital Forensics, Cloud Computing, Artificial Intelligence, Machine Learning, and Internet of Things (IoT) Security. Through outcome-based education, innovative teaching methodologies, and experiential learning practices, students are encouraged to develop analytical thinking, technical proficiency, creativity, and problem-solving capabilities.\nThe department is supported by  highly qualified faculty members, all holding Ph.D. degrees, with expertise in Cyber security, Networking, Cloud Computing, Distributed Systems, Artificial Intelligence, Machine Learning, and interdisciplinary computing applications. Faculty members actively contribute to scholarly publications, patent initiatives, research supervision, technical training, and professional development activities. The department's research-oriented academic environment promotes collaborative learning, knowledge creation, and technological advancement.\nA distinguishing strength of the department is its emphasis on industry-integrated education and practical skill development. Industry engagement with organizations such as Fortinet and Cisco provides opportunities to strengthen practical knowledge and professional competencies. The department's Fortinet industry laboratory resources, including FortiGate, FortiAnalyzer, FortiManager, and FortiSIEM, support learning in network security, threat monitoring, security analysis, and security operations. Industry-supported activities help bridge the gap between academic learning and real-world technological requirements.\nThe department actively promotes student engagement through its technical clubs, along with professional platforms such as ACM and IEEE student chapters. These initiatives encourage participation in Capture the Flag (CTF) competitions, ethical hacking challenges, cybersecurity awareness programmes, technical workshops, peer learning, and collaborative problem-solving activities.\nWith a strong commitment to academic excellence, industry exposure, innovation, and professional ethics, the department aims to nurture technically competent, socially responsible, and globally competitive engineers capable of contributing to the development of a secure and resilient digital ecosystem\n",
+      "createdAt": "2026-10-12T05:53:11.391Z",
+      "updatedAt": "2026-10-13T09:32:59.319Z",
+      "__v": 0,
+      "orderId": 6
+    },
+    "shortName": "B.Tech CSE & CS",
+    "updatedAt": "2026-10-12T08:22:08.175Z"
+  },
+  {
+    "hidden": false,
+    "_id": "6a3278af57dea087abf50aac",
+    "__v": 0,
+    "careerPath": [
+      "Data Scientist",
+      "Machine Learning Engineer",
+      "Machine Learning Architect",
+      "Artificial Intelligence Engineer"
+    ],
+    "createdAt": "2026-10-12T08:22:15.067Z",
+    "duration": "4 Years",
+    "eligibility": "(b)\tQualifying Examination: \nAll B.Tech programmes:\n\nMinimum 60% aggregate in PCM\n\n(i)\tPassed in Higher secondary examination (10+2 pattern ) or appearing in Higher Secondary examination in the current academic year with Physics and Mathematics as compulsory subjects along with one of the Chemistry/ Biotechnology/ Biology/ Technical Vocational subject/ Computer Science/ Information Technology/ Informatics Practices/ Agriculture/ Engineering Graphics/ Business Studies as major subjects in regular stream from any state board within India, CBSE, ISCE, Matriculation, or NIOS\n\nNote: Students who have completed +2 under NIOS must have completed the 10th standard from regular schooling or vice-versa. (source)\n\n(ii)\tGCE A-level or International Baccalaureate(IB) diploma or IB certificate with Physics and   Mathematics as compulsory subjects along with one of the Chemistry/ Biotechnology/ Biology/ Technical Vocational subject/ Computer Science/ Information Technology/ Informatics Practices/ Agriculture/ Engineering Graphics/ Business Studies as major subjects (equivalent to Advanced Placement level in each subject) in any International schools within India.\n",
+    "name": "B.Tech Computer Science and Engineering with Specialization in Artificial Intelligence and Machine Learning",
+    "orderId": 1,
+    "overview": "Artificial intelligence (AI) is the simulations of human intelligence in robots that have been trained to think and act like humans. The phrase can also refer to any machine that demonstrates human-like characteristics like learning and problem-solving. Artificial intelligence’s finest feature is its ability to reason and take actions that have the best possibility of reaching a certain goal. Machine learning is a subset of artificial intelligence that relates to the concept of computer programs learning from and adapting to new data without the assistance of humans. Deep learning algorithms allow for this autonomous learning by absorbing large volumes of unstructured data, including text, photos, and video. After two decades of Google, social media, and widespread smartphone use, Artificial Intelligence (AI) will be the next Big Thing in technology transformation. Artificial intelligence has found a particular place in people’s homes and daily lives as Smart Home Assistants and smart cities. Artificial intelligence and machine learning are becoming increasingly important in fields such as health care, agriculture, manufacturing, and defense. Amazon Echo and Google Home are popular smart home devices that allow you to perform a range of tasks simply by speaking to them. ",
+    "schoolDivisionId": {
+      "_id": "6acc7c63b2e749ee7bb0f892",
+      "schoolId": "6a0c50c54cb3b437aeb8d764",
+      "name": "Department of Artificial Intelligence and Machine Learning",
+      "slug": "department-of-artificial-intelligence-and-machine-learning",
+      "about": "The Department of Computer Science and Engineering with specialization in Artificial Intelligence and Machine Learning educates more than 1,000 undergraduate and postgraduate students to design, build and deploy intelligent systems. It pairs strong computing foundations with industry-mentored projects, active research and close personal mentoring.\nThe department is part of the School of Computing at SRM Institute of Science and Technology, Tiruchirappalli, a campus of the NAAC A++ accredited SRMIST. Its students come from Tamil Nadu, Andhra Pradesh, Telangana and other states; nearly half are from outside Tamil Nadu, and about one in three is a woman. Over 90% of the faculty hold a Ph.D., and their work spans computer vision, medical imaging, natural language processing, edge AI and intelligent IoT systems.\n",
+      "createdAt": "2026-10-12T06:21:23.679Z",
+      "updatedAt": "2026-10-13T09:27:14.320Z",
+      "__v": 0,
+      "orderId": 2
+    },
+    "shortName": "B.Tech CSE & AIML",
+    "updatedAt": "2026-10-12T08:22:15.067Z"
+  },
+  {
+    "hidden": false,
+    "_id": "6a327d0e57dea087abf50ae3",
+    "__v": 0,
+    "careerPath": [
+      "Software Developer",
+      "System Administrator",
+      "Network Engineer",
+      "Cybersecurity Analyst"
+    ],
+    "createdAt": "2026-10-12T08:22:27.768Z",
+    "duration": "4 Years",
+    "eligibility": "(a)\tQualifying Examination: \nAll B.Tech programmes:\n\nMinimum 60% aggregate in PCM\n\n(i)\tPassed in Higher secondary examination (10+2 pattern ) or appearing in Higher Secondary examination in the current academic year with Physics and Mathematics as compulsory subjects along with one of the Chemistry/ Biotechnology/ Biology/ Technical Vocational subject/ Computer Science/ Information Technology/ Informatics Practices/ Agriculture/ Engineering Graphics/ Business Studies as major subjects in regular stream from any state board within India, CBSE, ISCE, Matriculation, or NIOS\n\nNote: Students who have completed +2 under NIOS must have completed the 10th standard from regular schooling or vice-versa. (source)\n\n(ii)\tGCE A-level or International Baccalaureate(IB) diploma or IB certificate with Physics and   Mathematics as compulsory subjects along with one of the Chemistry/ Biotechnology/ Biology/ Technical Vocational subject/ Computer Science/ Information Technology/ Informatics Practices/ Agriculture/ Engineering Graphics/ Business Studies as major subjects (equivalent to Advanced Placement level in each subject) in any International schools within India.\n",
+    "name": "B.Tech Information Technology",
+    "orderId": 1,
+    "overview": "\nTechnological advancements on human life are not complete without the role of Information Technology, along all axes. All-pervading nature of Information Technology is culminated with huge demand for education in the said field. The steady rise in the number of students opting to specialize in Information Technology is a testimony for that. Education in Information Technology imparts the knowledge through which the needs of users within an organizational and societal context can be met.\n",
+    "schoolDivisionId": {
+      "_id": "6acc7601b2e749ee7ba98e08",
+      "schoolId": "6a0c50c54cb3b437aeb8d764",
+      "name": "Department of Information Technology",
+      "slug": "department-of-information-technology",
+      "about": "The Department of Information Technology at SRM Institute of Science and Technology, Tiruchirappalli, is committed to providing high-quality education in computing and information technology while fostering innovation, research, entrepreneurship and professional excellence.\nThe Department functions within the School of Computing, which offers a broad portfolio of computing programmes including Computer Science and Engineering, Artificial Intelligence, Artificial Intelligence and Machine Learning, Cyber Security, Blockchain Technology, Internet of Things, Data Science, Computer Science and Business Systems, and Information Technology. The School's academic framework emphasizes fundamental computing disciplines such as algorithms, data structures, operating systems, computer networks, database systems, software engineering, distributed systems and cloud architectures. \nThe Department of Information Technology focuses on preparing students to design, develop, deploy and manage technology solutions for real-world problems. The learning environment combines theoretical foundations with practical implementation, enabling students to understand not only how technologies work, but also how they can be integrated to solve complex organizational and societal challenges.\nThe programme is designed around the evolving landscape of information technology and provides students with opportunities to explore software development, databases, networking, cloud computing, artificial intelligence, machine learning, cybersecurity, mobile technologies, web technologies and emerging digital platforms",
+      "createdAt": "2026-10-12T05:54:09.034Z",
+      "updatedAt": "2026-10-12T08:53:55.911Z",
+      "__v": 0,
+      "orderId": 7
+    },
+    "shortName": "B.Tech IT",
+    "updatedAt": "2026-10-12T08:22:27.768Z"
+  },
+  {
+    "hidden": false,
+    "_id": "6a327b0c57dea087abf50ae0",
+    "__v": 0,
+    "careerPath": [
+      "Data Scientist",
+      "Machine Learning Specialist",
+      "Computer Engineer"
+    ],
+    "createdAt": "2026-10-12T08:22:38.310Z",
+    "duration": "4 Years",
+    "eligibility": "(a)\tQualifying Examination: \nAll B.Tech programmes:\n\nMinimum 60% aggregate in PCM\n\n(i)\tPassed in Higher secondary examination (10+2 pattern ) or appearing in Higher Secondary examination in the current academic year with Physics and Mathematics as compulsory subjects along with one of the Chemistry/ Biotechnology/ Biology/ Technical Vocational subject/ Computer Science/ Information Technology/ Informatics Practices/ Agriculture/ Engineering Graphics/ Business Studies as major subjects in regular stream from any state board within India, CBSE, ISCE, Matriculation, or NIOS\n\nNote: Students who have completed +2 under NIOS must have completed the 10th standard from regular schooling or vice-versa. (source)\n\n(ii)\tGCE A-level or International Baccalaureate(IB) diploma or IB certificate with Physics and   Mathematics as compulsory subjects along with one of the Chemistry/ Biotechnology/ Biology/ Technical Vocational subject/ Computer Science/ Information Technology/ Informatics Practices/ Agriculture/ Engineering Graphics/ Business Studies as major subjects (equivalent to Advanced Placement level in each subject) in any International schools within India.\n",
+    "name": "B.Tech Artificial Intelligence",
+    "orderId": 1,
+    "overview": "B.Tech in Artificial Intelligence, or Bachelors of Technology in Artificial Intelligence, is a four-year engineering undergraduate degree programme. Artificial Intelligence’s major purpose is to develop an inference engine and knowledge-based systems to solve problems as an expert. Students are taught various computer science languages through which they can communicate with computer machines for the above purposes. The B.Tech in Artificial Intelligence is aimed at helping students get a strong foundation in Computer Science and artificial intelligence in the first two years of courses. The development of intelligent machines as AI products, intelligent software as computer software, or applications using a combination of machine learning and artificial intelligence techniques will be covered in the next two years of courses.",
+    "schoolDivisionId": {
+      "orderId": 1,
+      "_id": "6acc7633b2e749ee7ba98e0a",
+      "schoolId": "6a0c50c54cb3b437aeb8d764",
+      "name": "Department of Artificial Intelligence",
+      "slug": "department-of-artificial-intelligence",
+      "about": "The Department of Artificial Intelligence, School of Computing, SRM Institute of Science and Technology, aspires to develop skilled and innovative AI professionals equipped to address real-world challenges and contribute to technological advancement.\nThe Department provides strong expertise in Artificial Intelligence, Machine Learning, Deep Learning, Data Science, Computer Vision, and Natural Language Processing through a project-based and hands-on learning approach.\nThe Department is committed to providing students with a world-class education in Artificial Intelligence, preparing them for successful careers in this rapidly evolving field. It offers a strong foundation in AI while encouraging students to explore emerging technologies, research, innovation, and industry-oriented applications\n",
+      "createdAt": "2026-10-12T05:54:59.645Z",
+      "updatedAt": "2026-10-12T05:54:59.645Z",
+      "__v": 0
+    },
+    "shortName": "B.Tech AI",
+    "updatedAt": "2026-10-12T08:22:38.310Z"
+  },
+  {
+    "_id": "6a327c9d57dea087abf50ae2",
+    "__v": 0,
+    "careerPath": [
+      "Business Analyst",
+      "Software Developer",
+      "Data Analyst",
+      "IT Consultant"
+    ],
+    "createdAt": "2026-10-12T08:22:46.294Z",
+    "duration": "4 Years",
+    "eligibility": "All B.Tech programmes:\n\nMinimum 60% aggregate in PCM\n\n(i)\tPassed in Higher secondary examination (10+2 pattern ) or appearing in Higher Secondary examination in the current academic year with Physics and Mathematics as compulsory subjects along with one of the Chemistry/ Biotechnology/ Biology/ Technical Vocational subject/ Computer Science/ Information Technology/ Informatics Practices/ Agriculture/ Engineering Graphics/ Business Studies as major subjects in regular stream from any state board within India, CBSE, ISCE, Matriculation, or NIOS\n\nNote: Students who have completed +2 under NIOS must have completed the 10th standard from regular schooling or vice-versa. (source)\n\n(ii)\tGCE A-level or International Baccalaureate(IB) diploma or IB certificate with Physics and   Mathematics as compulsory subjects along with one of the Chemistry/ Biotechnology/ Biology/ Technical Vocational subject/ Computer Science/ Information Technology/ Informatics Practices/ Agriculture/ Engineering Graphics/ Business Studies as major subjects (equivalent to Advanced Placement level in each subject) in any International schools within India.\n",
+    "name": "B.Tech Computer Science and Business Systems",
+    "orderId": 1,
+    "overview": "Computer Science and Business Systems (CSBS) attracts many aspirants as the course emphasizes computation, design, and deployment of programming languages, program design, hardware, software, and problem solving skills, with special mention of managerial skills. This course teaches the students to leverage the services and software to transform the raw data into tangible business decisions. The department offers a B.Tech in Computer Science and Business Systems to develop professionally competent engineers with good business insights. This is an overwhelming career option for today’s technologists.",
+    "schoolDivisionId": {
+      "_id": "6acc74f5b2e749ee7ba98e01",
+      "schoolId": "6a0c50c54cb3b437aeb8d764",
+      "name": "Department of Computer Science and Business Systems",
+      "slug": "department-of-computer-science-and-business-systems",
+      "about": "The Department of Computer Science and Business Systems (CSBS) at SRM Institute of Science and Technology, Tiruchirappalli, integrates computing expertise with business understanding, analytics, digital transformation, and technology-enabled decision-making. The department prepares students to bridge the gap between technical teams and business stakeholders in organizations increasingly driven by software, data, automation, cloud platforms, artificial intelligence, and digital products.\nCSBS develops students who can analyze business needs, interpret data, design technology solutions, communicate with multidisciplinary stakeholders, and contribute to the successful implementation of digital systems. The programme supports careers that require both technical depth and business awareness, including business analytics, product roles, technology consulting, enterprise systems, digital operations, and data-driven decision support. \nThe learning approach blends computer science foundations with management, economics, analytics, communication, software development, business processes, digital strategy, and project-based learning\n",
+      "createdAt": "2026-10-12T05:49:41.012Z",
+      "updatedAt": "2026-10-12T08:51:46.533Z",
+      "__v": 0,
+      "orderId": 4
+    },
+    "shortName": "B.Tech CS BS",
+    "updatedAt": "2026-10-12T08:47:14.043Z",
+    "hidden": false
+  },
+  {
+    "_id": "6a327e3757dea087abf50ae5",
+    "__v": 0,
+    "careerPath": [
+      "Data Scientist",
+      "Data Analyst",
+      "Machine Learning Engineer",
+      "Business Intelligence Analyst"
+    ],
+    "createdAt": "2026-10-12T08:23:01.546Z",
+    "duration": "4 Years",
+    "eligibility": "Data Scientist ,Data Analyst ,Machine Learning Engineer ,Business Intelligence Analyst ",
+    "name": "B.Tech Computer Science and Engineering with Specialization in Data Sciences",
+    "orderId": 1,
+    "overview": "Data science has evolved as one of the most pioneering and in-demand career avenues. This interdisciplinary field amalgamates the deployment of scientific methodologies to transform the knowledge extracted from the data into tangible business insights. The field of Data science covers a very broad spectrum of technologies to facilitate the understanding of technical results from enormous data. The department offers a B.Tech CSE with a specialization in Data Science to facilitate the student’s development into skilled professionals capable of mining business values from data by leveraging statistical and analytical techniques.",
+    "schoolDivisionId": {
+      "_id": "6acc7547b2e749ee7ba98e03",
+      "schoolId": "6a0c50c54cb3b437aeb8d764",
+      "name": "Department of Big Data Analytics and Data Science",
+      "slug": "department-of-big-data-analytics-and-data-science",
+      "about": "In a world where every digital interaction generates data and every connected system contributes to an ever-expanding information landscape, the ability to analyse, interpret, and harness data has become a driving force for innovation and informed decision-making. The Department of Big Data Analytics and Data Science brings together the foundations of Computer Science, the analytical power of Data Science, and the capabilities of Big Data technologies to prepare students to transform vast and complex datasets into meaningful insights, intelligent solutions, and real-world impact.\n\nThe department focuses on developing students’ abilities to understand data, identify patterns, uncover hidden opportunities, and address complex challenges through data-driven thinking. The learning environment integrates data science, statistical analysis, machine learning, data management, Big Data technologies, data visualisation, cloud-based analytics, and intelligent systems. Students gain exposure to the complete data lifecycle, from collecting and processing information to analysing large-scale datasets, communicating insights effectively, and applying analytical outcomes to practical challenges.\n\nThe curriculum encourages exploration across diverse domains, including business, healthcare, finance, the Internet of Things (IoT), intelligent systems, and emerging technology applications. Students are also encouraged to understand how data moves through interconnected systems, how large-scale information can support strategic decisions, and how analytical technologies can create value for organisations and society. Through hands-on learning, projects, internships, research, and industry-oriented initiatives, they develop the technical expertise, analytical mindset, critical thinking, and problem-solving abilities required to address evolving technological challenges.\n\nWith dedicated faculty, a dynamic learning environment, and a strong emphasis on innovation, research, and continuous learning, the department strives to nurture a new generation of data scientists, Big Data professionals, technology innovators, and responsible problem solvers who can transform data into knowledge, knowledge into actionable intelligence, and intelligence into meaningful impact across an increasingly data-driven world.",
+      "createdAt": "2026-10-12T05:51:03.437Z",
+      "updatedAt": "2026-10-13T09:28:12.945Z",
+      "__v": 0,
+      "orderId": 3
+    },
+    "shortName": "B.Tech CSE & DS",
+    "updatedAt": "2026-10-12T10:15:26.201Z",
+    "hidden": false
+  },
+  {
+    "_id": "6a3281ee57dea087abf50aea",
+    "__v": 0,
+    "careerPath": [
+      "AI Engineer",
+      "Machine Learning Scientist",
+      "Data Scientist",
+      "AI Researcher"
+    ],
+    "createdAt": "2026-10-12T08:23:51.755Z",
+    "duration": "2 Years",
+    "eligibility": "-",
+    "name": "M.Tech Computer Science and Engineering with Specialization in Artificial Intelligence and Machine Learning ",
+    "orderId": 1,
+    "overview": "Artificial intelligence (AI) is the simulations of human intelligence in robots that have been trained to think and act like humans. The phrase can also refer to any machine that demonstrates human-like characteristics like learning and problem-solving. Artificial intelligence’s finest feature is its ability to reason and take actions that have the best possibility of reaching a certain goal. Machine learning is a subset of artificial intelligence that relates to the concept of computer programs learning from and adapting to new data without the assistance of humans. Deep learning algorithms allow for this autonomous learning by absorbing large volumes of unstructured data, including text, photos, and video. After two decades of Google, social media, and widespread smartphone use, Artificial Intelligence (AI) will be the next Big Thing in technology transformation. Artificial intelligence has found a particular place in people’s homes and daily lives as Smart Home Assistants and smart cities. Artificial intelligence and machine learning are becoming increasingly important in fields such as health care, agriculture, manufacturing, and defense. Amazon Echo and Google Home are popular smart home devices that allow you to perform a range of tasks simply by speaking to them. ",
+    "schoolDivisionId": {
+      "_id": "6acc7c63b2e749ee7bb0f892",
+      "schoolId": "6a0c50c54cb3b437aeb8d764",
+      "name": "Department of Artificial Intelligence and Machine Learning",
+      "slug": "department-of-artificial-intelligence-and-machine-learning",
+      "about": "The Department of Computer Science and Engineering with specialization in Artificial Intelligence and Machine Learning educates more than 1,000 undergraduate and postgraduate students to design, build and deploy intelligent systems. It pairs strong computing foundations with industry-mentored projects, active research and close personal mentoring.\nThe department is part of the School of Computing at SRM Institute of Science and Technology, Tiruchirappalli, a campus of the NAAC A++ accredited SRMIST. Its students come from Tamil Nadu, Andhra Pradesh, Telangana and other states; nearly half are from outside Tamil Nadu, and about one in three is a woman. Over 90% of the faculty hold a Ph.D., and their work spans computer vision, medical imaging, natural language processing, edge AI and intelligent IoT systems.\n",
+      "createdAt": "2026-10-12T06:21:23.679Z",
+      "updatedAt": "2026-10-13T09:27:14.320Z",
+      "__v": 0,
+      "orderId": 2
+    },
+    "shortName": "M.Tech CSE & AIML",
+    "updatedAt": "2026-10-12T08:54:58.938Z",
+    "hidden": false
+  },
+  {
+    "hidden": false,
+    "_id": "6a32802b57dea087abf50ae7",
+    "__v": 0,
+    "careerPath": [
+      "Biomedical Data Analyst",
+      "Healthcare Software Developer",
+      "Medical AI Engineer",
+      "Clinical Systems Engineer"
+    ],
+    "createdAt": "2026-10-12T08:26:08.857Z",
+    "duration": "4 Years",
+    "eligibility": "Qualifying Examination: \nAll B.Tech programmes:\n\nMinimum 60% aggregate in PCM\n\n(i)\tPassed in Higher secondary examination (10+2 pattern ) or appearing in Higher Secondary examination in the current academic year with Physics and Mathematics as compulsory subjects along with one of the Chemistry/ Biotechnology/ Biology/ Technical Vocational subject/ Computer Science/ Information Technology/ Informatics Practices/ Agriculture/ Engineering Graphics/ Business Studies as major subjects in regular stream from any state board within India, CBSE, ISCE, Matriculation, or NIOS\n\nNote: Students who have completed +2 under NIOS must have completed the 10th standard from regular schooling or vice-versa. (source)\n\n(ii)\tGCE A-level or International Baccalaureate(IB) diploma or IB certificate with Physics and   Mathematics as compulsory subjects along with one of the Chemistry/ Biotechnology/ Biology/ Technical Vocational subject/ Computer Science/ Information Technology/ Informatics Practices/ Agriculture/ Engineering Graphics/ Business Studies as major subjects (equivalent to Advanced Placement level in each subject) in any International schools within India.\n",
+    "name": "B.Tech Artificial Intelligence and Future Technologies",
+    "orderId": 1,
+    "overview": "The B.Tech Computer Science and Engineering with Specialization in Medical Engineering is a four-year undergraduate programme designed to integrate computer science with healthcare technology. The programme aims to provide students with knowledge in computing technologies and their applications in the medical and healthcare domain. Students gain exposure to areas such as medical data analysis, medical imaging, health informatics, and intelligent healthcare systems. The curriculum is designed to help students understand how modern technologies like Artificial Intelligence, Machine Learning, and Data Analytics can support medical diagnosis, patient monitoring, and healthcare management",
+    "schoolDivisionId": {
+      "_id": "6acc74f5b2e749ee7ba98e01",
+      "schoolId": "6a0c50c54cb3b437aeb8d764",
+      "name": "Department of Computer Science and Business Systems",
+      "slug": "department-of-computer-science-and-business-systems",
+      "about": "The Department of Computer Science and Business Systems (CSBS) at SRM Institute of Science and Technology, Tiruchirappalli, integrates computing expertise with business understanding, analytics, digital transformation, and technology-enabled decision-making. The department prepares students to bridge the gap between technical teams and business stakeholders in organizations increasingly driven by software, data, automation, cloud platforms, artificial intelligence, and digital products.\nCSBS develops students who can analyze business needs, interpret data, design technology solutions, communicate with multidisciplinary stakeholders, and contribute to the successful implementation of digital systems. The programme supports careers that require both technical depth and business awareness, including business analytics, product roles, technology consulting, enterprise systems, digital operations, and data-driven decision support. \nThe learning approach blends computer science foundations with management, economics, analytics, communication, software development, business processes, digital strategy, and project-based learning\n",
+      "createdAt": "2026-10-12T05:49:41.012Z",
+      "updatedAt": "2026-10-12T08:51:46.533Z",
+      "__v": 0,
+      "orderId": 4
+    },
+    "shortName": "B.Tech AI & FT",
+    "updatedAt": "2026-10-12T08:26:08.857Z"
+  },
+  {
+    "_id": "6a32810057dea087abf50ae8",
+    "__v": 0,
+    "careerPath": [
+      "Product Engineer",
+      "Full Stack Developer",
+      "Product Manager",
+      "DevOps Engineer"
+    ],
+    "createdAt": "2026-10-12T08:26:33.670Z",
+    "duration": "4 Years",
+    "eligibility": "(a)\tQualifying Examination: \nAll B.Tech programmes:\n\nMinimum 60% aggregate in PCM\n\n(i)\tPassed in Higher secondary examination (10+2 pattern ) or appearing in Higher Secondary examination in the current academic year with Physics and Mathematics as compulsory subjects along with one of the Chemistry/ Biotechnology/ Biology/ Technical Vocational subject/ Computer Science/ Information Technology/ Informatics Practices/ Agriculture/ Engineering Graphics/ Business Studies as major subjects in regular stream from any state board within India, CBSE, ISCE, Matriculation, or NIOS\n\nNote: Students who have completed +2 under NIOS must have completed the 10th standard from regular schooling or vice-versa. (source)\n\n(ii)\tGCE A-level or International Baccalaureate(IB) diploma or IB certificate with Physics and   Mathematics as compulsory subjects along with one of the Chemistry/ Biotechnology/ Biology/ Technical Vocational subject/ Computer Science/ Information Technology/ Informatics Practices/ Agriculture/ Engineering Graphics/ Business Studies as major subjects (equivalent to Advanced Placement level in each subject) in any International schools within India.\n",
+    "name": "B.Tech Software Product Engineering",
+    "orderId": 1,
+    "overview": "This program is designed to equip students with industry-ready skills in full-stack development, scalable software solutions, and cloud-native applications. It emphasizes hands-on learning, allowing students to work on real-world projects such as Free Open-Source Software (FOSS) contributions. With paid internships starting as early as the second year, students can gain up to three years of professional experience before graduation. The curriculum focuses on modern development practices, including frontend/backend development, API design, DevOps, and UI/UX design. Graduates are prepared for impactful roles such as DevOps Engineer and MERN Stack Developer",
+    "schoolDivisionId": {
+      "_id": "6acc74f5b2e749ee7ba98e01",
+      "schoolId": "6a0c50c54cb3b437aeb8d764",
+      "name": "Department of Computer Science and Business Systems",
+      "slug": "department-of-computer-science-and-business-systems",
+      "about": "The Department of Computer Science and Business Systems (CSBS) at SRM Institute of Science and Technology, Tiruchirappalli, integrates computing expertise with business understanding, analytics, digital transformation, and technology-enabled decision-making. The department prepares students to bridge the gap between technical teams and business stakeholders in organizations increasingly driven by software, data, automation, cloud platforms, artificial intelligence, and digital products.\nCSBS develops students who can analyze business needs, interpret data, design technology solutions, communicate with multidisciplinary stakeholders, and contribute to the successful implementation of digital systems. The programme supports careers that require both technical depth and business awareness, including business analytics, product roles, technology consulting, enterprise systems, digital operations, and data-driven decision support. \nThe learning approach blends computer science foundations with management, economics, analytics, communication, software development, business processes, digital strategy, and project-based learning\n",
+      "createdAt": "2026-10-12T05:49:41.012Z",
+      "updatedAt": "2026-10-12T08:51:46.533Z",
+      "__v": 0,
+      "orderId": 4
+    },
+    "shortName": "B.Tech SPE",
+    "updatedAt": "2026-10-12T08:47:04.818Z",
+    "hidden": false
+  }
+]
